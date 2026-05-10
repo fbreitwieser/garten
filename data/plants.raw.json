@@ -1,0 +1,1394 @@
+[
+  {
+    "nameEn": "Alliums",
+    "nameLa": "Allium",
+    "helps": [
+      "Fruit trees",
+      "nightshades (tomatoes",
+      "capsicum peppers",
+      "potatoes)",
+      "brassicas",
+      "carrots"
+    ],
+    "avoid": [
+      "Beans",
+      "peas"
+    ],
+    "comments": "Allium is a genus of plants which includes onions and garlic.",
+    "wikiTitle": "Alliums"
+  },
+  {
+    "nameEn": "Asparagus",
+    "nameLa": "Asparagus officinalis",
+    "helps": [
+      "Tomatoes",
+      "parsley"
+    ],
+    "avoid": [
+      "Onion",
+      "garlic",
+      "potatoes"
+    ],
+    "comments": "",
+    "wikiTitle": "Asparagus"
+  },
+  {
+    "nameEn": "Beans, bush",
+    "nameLa": "Phaseolus vulgaris",
+    "helps": [
+      "Cucumber",
+      "strawberries"
+    ],
+    "avoid": [
+      "soybeans",
+      "dry beans",
+      "alfalfa"
+    ],
+    "comments": "\"Lettuce, potato, tomato, other legumes, crucifers, or cucurbits increase sclerotinia\" in the soil and should be avoided before and after snap beans. See the entry for \"Legumes\" for more info",
+    "wikiTitle": "Beans, bush"
+  },
+  {
+    "nameEn": "Beans, pole",
+    "nameLa": "Phaseolus vulgaris",
+    "helps": [],
+    "avoid": [
+      "brassicas",
+      "kohlrabi"
+    ],
+    "comments": "the stalk of the corn provides a pole for the beans to grow on, which then gives nitrogen to the soil of the corn. Beans and corn are traditional \"Three Sisters\" plants. As for Radishes, see the entry for \"Legumes\".",
+    "wikiTitle": "Beans, pole"
+  },
+  {
+    "nameEn": "Beans, fava",
+    "nameLa": "Vicia faba",
+    "helps": [],
+    "avoid": [],
+    "comments": "See the entry for \"Legumes\" for more info",
+    "wikiTitle": "Beans, fava"
+  },
+  {
+    "nameEn": "Beets",
+    "nameLa": "Beta vulgaris",
+    "helps": [
+      "bush beans",
+      "cabbage",
+      "lettuce",
+      "kohlrabi",
+      "onions",
+      "brassicas",
+      "passion fruit"
+    ],
+    "avoid": [
+      "Runner or pole beans"
+    ],
+    "comments": "Good for adding minerals to the soil through composting leaves which have up to 25% magnesium. Runner or pole beans and beets stunt each other's growth.",
+    "wikiTitle": "Beets"
+  },
+  {
+    "nameEn": "Brassicas",
+    "nameLa": "Brassica",
+    "helps": [
+      "onions"
+    ],
+    "avoid": [
+      "Mustards",
+      "nightshades (tomatoes",
+      "peppers",
+      "etc.)",
+      "pole beans",
+      "strawberries"
+    ],
+    "comments": "Brassicas are a family of plants which includes broccoli, Brussels sprouts, cabbage, cauliflower, Chinese cabbage, kohlrabi, radish, and turnip. Thyme, nasturtiums, and onion showed good resistance to cabbage worm, weevil and cabbage looper.",
+    "wikiTitle": "Brassicas"
+  },
+  {
+    "nameEn": "Broccoli",
+    "nameLa": "Brassica oleracea",
+    "helps": [
+      "Lettuce"
+    ],
+    "avoid": [],
+    "comments": "Broccoli as a main crop intercropped with lettuce was shown to be more profitable than either crop alone. Turnip acts as a trap crop. See brassicas entry for more info",
+    "wikiTitle": "Broccoli"
+  },
+  {
+    "nameEn": "Brussels sprouts",
+    "nameLa": "Brassica oleracea",
+    "helps": [],
+    "avoid": [],
+    "comments": "",
+    "wikiTitle": "Brussels sprouts"
+  },
+  {
+    "nameEn": "Cabbage",
+    "nameLa": "Brassica oleracea / Brassica chinensis",
+    "helps": [
+      "Beans",
+      "celery"
+    ],
+    "avoid": [
+      "Grapes"
+    ],
+    "comments": "See brassicas entry for more info. If using clover as an intercrop it should be sown after cabbage transplant so as not to affect crop yield. Nasturtiums repel cabbage moths",
+    "wikiTitle": "Cabbage"
+  },
+  {
+    "nameEn": "Carrots",
+    "nameLa": "Daucus carota",
+    "helps": [
+      "Tomatoes",
+      "alliums",
+      "beans",
+      "leeks",
+      "lettuce",
+      "onions",
+      "passion fruit"
+    ],
+    "avoid": [
+      "Dill",
+      "parsnip",
+      "radish"
+    ],
+    "comments": "Tomatoes grow better with carrots, but may stunt the carrots' growth. Beans provide the nitrogen carrots need more than some other vegetables. Aromatic companion plants repel carrot fly. Alliums inter-planted with carrots confuse onion and carrot flies. For the beneficial insect-attracting properties of carrots to work, they need to be allowed to flower; Otherwise, use wild carrot, Queen Anne's Lace, for the same effect.",
+    "wikiTitle": "Carrots"
+  },
+  {
+    "nameEn": "Cauliflower",
+    "nameLa": "Brassica oleracea",
+    "helps": [
+      "Beans",
+      "celery",
+      "spinach",
+      "peas"
+    ],
+    "avoid": [],
+    "comments": "See brassicas for more info. See peas regarding their mutualism with cauliflower.",
+    "wikiTitle": "Cauliflower"
+  },
+  {
+    "nameEn": "Celery",
+    "nameLa": "Apium graveolens",
+    "helps": [
+      "Bush beans",
+      "brassicas",
+      "cucumber"
+    ],
+    "avoid": [
+      "Corn",
+      "aster flowers"
+    ],
+    "comments": "Aster flowers, can transmit the aster yellows disease",
+    "wikiTitle": "Celery"
+  },
+  {
+    "nameEn": "Chard",
+    "nameLa": "Beta vulgaris ssp. cicla",
+    "helps": [
+      "Brassicas",
+      "passion fruit"
+    ],
+    "avoid": [],
+    "comments": "",
+    "wikiTitle": "Chard"
+  },
+  {
+    "nameEn": "Corn / Maize",
+    "nameLa": "Zea mays",
+    "helps": [
+      "Beans",
+      "cucurbits",
+      "soybeans",
+      "tomatoes"
+    ],
+    "avoid": [
+      "Tomato",
+      "celery"
+    ],
+    "comments": "Provides beans with a trellis, is protected from predators and dryness by cucurbits, in the three sisters technique",
+    "wikiTitle": "Corn / Maize"
+  },
+  {
+    "nameEn": "Cucumber",
+    "nameLa": "Cucumis sativus",
+    "helps": [
+      "Beans",
+      "kohlrabi",
+      "lettuce"
+    ],
+    "avoid": [
+      "Potato",
+      "aromatic herbs"
+    ],
+    "comments": "Sow 2 or 3 radish seeds in with cucumbers to repel cucumber beetles. One study showed a 75% reduction in cucumber beetles with the concurrent seeding of amaranth. Various sprays from lettuce, asparagus, Malabar spinach, and celery were found to reduce whiteflies. See cucurbits entry for more info",
+    "wikiTitle": "Cucumber"
+  },
+  {
+    "nameEn": "Cucurbits",
+    "nameLa": "Cucurbitaceae",
+    "helps": [
+      "Corn"
+    ],
+    "avoid": [],
+    "comments": "Cucurbits are a family of plants that includes melons, cucumbers, gourds, pumpkins, and squash",
+    "wikiTitle": "Cucurbits"
+  },
+  {
+    "nameEn": "Eggplant or Aubergine",
+    "nameLa": "Solanum melongena",
+    "helps": [
+      "Beans",
+      "peppers",
+      "tomatoes",
+      "passion fruit"
+    ],
+    "avoid": [],
+    "comments": "Marigolds will deter nematodes.",
+    "wikiTitle": "Eggplant or Aubergine"
+  },
+  {
+    "nameEn": "Kohlrabi",
+    "nameLa": "Brassica oleracea v. gongylodes",
+    "helps": [
+      "Onion",
+      "beets",
+      "aromatic plants",
+      "cucumbers"
+    ],
+    "avoid": [],
+    "comments": "See Brassicas entry for more info",
+    "wikiTitle": "Kohlrabi"
+  },
+  {
+    "nameEn": "Leek",
+    "nameLa": "Allium ampeloprasum v. porrum",
+    "helps": [
+      "Carrots",
+      "celery",
+      "onions",
+      "tomato",
+      "passion fruit"
+    ],
+    "avoid": [
+      "Swiss chard"
+    ],
+    "comments": "See Alliums entry for more info",
+    "wikiTitle": "Leek"
+  },
+  {
+    "nameEn": "Legumes",
+    "nameLa": "Phaseolus and Vicia",
+    "helps": [
+      "Beets",
+      "lettuce",
+      "okra",
+      "potato",
+      "cabbage",
+      "carrots",
+      "chards",
+      "eggplant",
+      "peas",
+      "tomatoes",
+      "brassicas",
+      "corn",
+      "cucumbers",
+      "grapes"
+    ],
+    "avoid": [
+      "Alliums",
+      "gladiolas"
+    ],
+    "comments": "Hosts nitrogen-fixing bacteria, a good fertiliser for some plants, too much for others. Rosemary and peppermint extracts are used in organic sprays for beans. Summer savory and potatoes repel bean beetles.",
+    "wikiTitle": "Legumes"
+  },
+  {
+    "nameEn": "Lettuce",
+    "nameLa": "Lactuca sativa",
+    "helps": [
+      "Beets",
+      "beans",
+      "okra",
+      "onions",
+      "radish",
+      "broccoli",
+      "Carrots",
+      "passion fruit"
+    ],
+    "avoid": [
+      "Celery",
+      "cabbage",
+      "cress",
+      "parsley"
+    ],
+    "comments": "Broccoli when intercropped with lettuce was shown to be more profitable than either crop alone.",
+    "wikiTitle": "Lettuce"
+  },
+  {
+    "nameEn": "Mustard",
+    "nameLa": "Sinapis alba",
+    "helps": [
+      "Beans",
+      "cabbage",
+      "cauliflower",
+      "fruit trees",
+      "grapes",
+      "radish",
+      "brussels sprouts",
+      "turnips"
+    ],
+    "avoid": [],
+    "comments": "See Brassicas entry.",
+    "wikiTitle": "Mustard"
+  },
+  {
+    "nameEn": "Nightshades",
+    "nameLa": "Solanaceae",
+    "helps": [],
+    "avoid": [
+      "Beans",
+      "black walnuts",
+      "corn",
+      "fennel",
+      "dill",
+      "brassicas"
+    ],
+    "comments": "Nightshades are a family of plants which include tomatoes, tobacco, chili peppers , potatoes, eggplant, and others",
+    "wikiTitle": "Nightshades"
+  },
+  {
+    "nameEn": "Okra",
+    "nameLa": "Abelmoschus esculentus",
+    "helps": [
+      "Sweet potato",
+      "tomatoes",
+      "peppers"
+    ],
+    "avoid": [],
+    "comments": "Okra and sweet potato are mutually beneficial when planted simultaneously.",
+    "wikiTitle": "Okra"
+  },
+  {
+    "nameEn": "Onion",
+    "nameLa": "Allium cepa",
+    "helps": [
+      "Beets",
+      "brassicas",
+      "cabbage",
+      "broccoli",
+      "carrots",
+      "lettuce",
+      "cucumbers",
+      "peppers",
+      "passion fruit",
+      "strawberries."
+    ],
+    "avoid": [
+      "Lentils",
+      "peas",
+      "beans"
+    ],
+    "comments": "See Alliums entry for more info",
+    "wikiTitle": "Onion"
+  },
+  {
+    "nameEn": "Parsnip",
+    "nameLa": "Pastinaca sativa",
+    "helps": [
+      "Fruit trees"
+    ],
+    "avoid": [],
+    "comments": "The flowers of the parsnip plant left to seed will attract a variety of predatory insects to the garden, they are particularly helpful when left under fruit trees, the predators attacking codling moth and light brown apple moth.",
+    "wikiTitle": "Parsnip"
+  },
+  {
+    "nameEn": "Peas",
+    "nameLa": "Pisum sativum",
+    "helps": [
+      "Turnip",
+      "cauliflower",
+      "garlic"
+    ],
+    "avoid": [],
+    "comments": "Peas when intercropped with turnips, cauliflower, or garlic showed mutual suppression of growth however their profit per land area used was increased.",
+    "wikiTitle": "Peas"
+  },
+  {
+    "nameEn": "Peppers",
+    "nameLa": "Solanaceae, Capsicum",
+    "helps": [
+      "Okra"
+    ],
+    "avoid": [
+      "Beans",
+      "kale (cabbage",
+      "Brussels sprouts",
+      "etc.)"
+    ],
+    "comments": "Pepper plants like high humidity, which can be helped along by planting with some kind of dense-leaf or ground-cover companion, like marjoram and basil; pepper plants grown together, or with tomatoes, can shelter the fruit from excess sunlight, and raise the humidity level. Sunflowers, when in bloom at the right time, shelter beneficial insects, lowering thrips populations.",
+    "wikiTitle": "Peppers"
+  },
+  {
+    "nameEn": "Potato",
+    "nameLa": "Solanum tuberosum",
+    "helps": [
+      "Brassicas",
+      "beans",
+      "corn",
+      "peas",
+      "passion fruit"
+    ],
+    "avoid": [
+      "Atriplex",
+      "carrot",
+      "cucumber",
+      "pumpkin",
+      "raspberries",
+      "squash",
+      "sunflower",
+      "tomato"
+    ],
+    "comments": "Horseradish increases the disease resistance of potatoes. It repels the potato bug. Garlic is more effective than fungicides on late potato blight. Peas were shown to reduce the density of Colorado potato beetles.",
+    "wikiTitle": "Potato"
+  },
+  {
+    "nameEn": "Pumpkin",
+    "nameLa": "Cucurbita pepo",
+    "helps": [
+      "Corn",
+      "beans"
+    ],
+    "avoid": [
+      "Potatoes"
+    ],
+    "comments": "Radishes can be used as a trap crop against flea beetles, cucurbita can be used in the Three Sisters technique. Nasturtiums repel squash bugs.",
+    "wikiTitle": "Pumpkin"
+  },
+  {
+    "nameEn": "Radish",
+    "nameLa": "Raphanus sativus",
+    "helps": [
+      "Squash eggplant",
+      "cucumber",
+      "lettuce",
+      "peas",
+      "beans",
+      "pole beans"
+    ],
+    "avoid": [
+      "Grapes"
+    ],
+    "comments": "Radishes can be used as a trap crop against flea beetles. Radishes grown with lettuce taste better.",
+    "wikiTitle": "Radish"
+  },
+  {
+    "nameEn": "Soybean",
+    "nameLa": "Glycine max",
+    "helps": [],
+    "avoid": [],
+    "comments": "A mixture of corn, mungbean, and sunflower was found to rid soybeans of aphids.",
+    "wikiTitle": "Soybean"
+  },
+  {
+    "nameEn": "Spinach",
+    "nameLa": "Spinacia oleracea",
+    "helps": [
+      "Brassicas",
+      "passion fruit"
+    ],
+    "avoid": [],
+    "comments": "The peas and beans provide natural shade for the spinach. See cauliflower notes regarding mutualism with spinach.",
+    "wikiTitle": "Spinach"
+  },
+  {
+    "nameEn": "Squash",
+    "nameLa": "Cucurbita spp.",
+    "helps": [
+      "corn",
+      "beans",
+      "okra"
+    ],
+    "avoid": [],
+    "comments": "Radishes can be used as a trap crop against flea beetles, cucurbita can be used in the three sisters technique. Marigolds and nasturtiums repel squash bugs. Marigolds repel cucumber beetles.",
+    "wikiTitle": "Squash"
+  },
+  {
+    "nameEn": "Sweet potato",
+    "nameLa": "Ipomoea batatas",
+    "helps": [
+      "Okra"
+    ],
+    "avoid": [],
+    "comments": "Okra and sweet potato are mutually beneficial when planted simultaneously.",
+    "wikiTitle": "Sweet potato"
+  },
+  {
+    "nameEn": "Tomatoes",
+    "nameLa": "Solanum lycopersicum",
+    "helps": [
+      "Celery",
+      "roses",
+      "peppers",
+      "asparagus"
+    ],
+    "avoid": [
+      "Black walnut",
+      "alfalfa",
+      "corn",
+      "fennel",
+      "chili peppers",
+      "peas",
+      "dill",
+      "potatoes",
+      "beetroot",
+      "brassicas",
+      "rosemary"
+    ],
+    "comments": "Black walnuts inhibit tomato growth, in fact they are negative allelopathic to all other nightshade plants as well, because it produces a chemical called juglone. Dill attracts tomato hornworm.Growing tomatoes with Basil does not appear to enhance tomato flavour but studies have shown that growing them around 10 inches apart can increase the yield of tomatoes by about 20%. One study shows that growing chili peppers near tomatoes in greenhouses increases tomato whitefly on the tomatoes. Cucumbers and squash can be used as living mulch, or green mulch, around tomato plants. The large leaves of these vining plants can help with soil moisture retention.",
+    "wikiTitle": "Tomatoes"
+  },
+  {
+    "nameEn": "Turnips and rutabagas",
+    "nameLa": "Brassica rapa and Brassica napobrassica",
+    "helps": [
+      "Peas",
+      "broccoli"
+    ],
+    "avoid": [
+      "hedge mustard",
+      "knotweed"
+    ],
+    "comments": "Turnips act as a trap crop for broccoli. See peas regarding their mutualism with turnips.",
+    "wikiTitle": "Turnips and rutabagas"
+  },
+  {
+    "nameEn": "Apple",
+    "nameLa": "Malus domestica",
+    "helps": [],
+    "avoid": [
+      "Cedar because of apple-cedar rust. Walnut because its roots produce growth inhibitors that apple trees are sensitive to"
+    ],
+    "comments": "French marigold inhibits codling moth but also its insect enemies, and fails to reduce damage to apples.",
+    "wikiTitle": "Apple"
+  },
+  {
+    "nameEn": "Apricot",
+    "nameLa": "Prunus armeniaca",
+    "helps": [],
+    "avoid": [
+      "Peppers"
+    ],
+    "comments": "A fungus that peppers are prone to can infect apricot trees causing a lot of harm.",
+    "wikiTitle": "Apricot"
+  },
+  {
+    "nameEn": "Blueberries",
+    "nameLa": "Vaccinium spp.",
+    "helps": [],
+    "avoid": [
+      "tomatoes"
+    ],
+    "comments": "Pine and oak trees create the acidic soil blueberries need. Strawberries and dewberries create healthy ground cover, clover fixes nitrogen for the blueberries' high needs, yarrow and bay laurel repel unhealthy insects. Each of the herbal companions listed also like the acidic soil the blueberry plant needs.",
+    "wikiTitle": "Blueberries"
+  },
+  {
+    "nameEn": "Fruit trees",
+    "nameLa": "Various",
+    "helps": [],
+    "avoid": [],
+    "comments": "",
+    "wikiTitle": "Fruit trees"
+  },
+  {
+    "nameEn": "Grapes",
+    "nameLa": "Vitis spp.",
+    "helps": [],
+    "avoid": [
+      "Cabbage",
+      "garlic",
+      "radishes"
+    ],
+    "comments": "",
+    "wikiTitle": "Grapes"
+  },
+  {
+    "nameEn": "Melon",
+    "nameLa": "Cucumis melo",
+    "helps": [],
+    "avoid": [],
+    "comments": "",
+    "wikiTitle": "Melon"
+  },
+  {
+    "nameEn": "Passion fruit",
+    "nameLa": "Passiflora edulis",
+    "helps": [],
+    "avoid": [
+      "Cucurbits",
+      "maize",
+      "cowpea",
+      "sorghum",
+      "okra",
+      "sweet potatoes"
+    ],
+    "comments": "",
+    "wikiTitle": "Passion fruit"
+  },
+  {
+    "nameEn": "Pears",
+    "nameLa": "Pyrus spp.",
+    "helps": [],
+    "avoid": [],
+    "comments": "",
+    "wikiTitle": "Pears"
+  },
+  {
+    "nameEn": "Strawberries",
+    "nameLa": "Fragaria × ananassa",
+    "helps": [
+      "Bush beans",
+      "lettuce",
+      "onions",
+      "spinach",
+      "passion fruit"
+    ],
+    "avoid": [
+      "Brassicas",
+      "Verticillium-susceptible species (tomatoes",
+      "potatoes",
+      "eggplant",
+      "peppers",
+      "melons",
+      "okra",
+      "mint",
+      "bush or bramble fruits",
+      "stone fruits",
+      "chrysanthemums",
+      "roses)"
+    ],
+    "comments": "Thyme planted and/or placed next to each other help grow more strawberries quickly.",
+    "wikiTitle": "Strawberries"
+  },
+  {
+    "nameEn": "Anise",
+    "nameLa": "Pimpinella anisum",
+    "helps": [],
+    "avoid": [],
+    "comments": "Not to be confused with star anise which is an entirely different species.",
+    "wikiTitle": "Anise"
+  },
+  {
+    "nameEn": "Basil",
+    "nameLa": "Ocimum basilicum",
+    "helps": [
+      "Tomato",
+      "peppers",
+      "oregano",
+      "asparagus",
+      "petunias",
+      "grapes"
+    ],
+    "avoid": [
+      "Common rue",
+      "thyme"
+    ],
+    "comments": "Is said to make tomatoes taste better, chamomile and anise are supposed to increase the essential oils in many herbs like basil",
+    "wikiTitle": "Basil"
+  },
+  {
+    "nameEn": "Borage",
+    "nameLa": "Borago officinalis",
+    "helps": [
+      "Almost everything",
+      "especially beans",
+      "strawberry",
+      "cucurbits (cucumber",
+      "squash)",
+      "fruit trees",
+      "tomatoes and cabbage"
+    ],
+    "avoid": [],
+    "comments": "Predict a square metre for its adult size. Borage is a good companion for a wide variety of plants.",
+    "wikiTitle": "Borage"
+  },
+  {
+    "nameEn": "Caraway",
+    "nameLa": "Carum carvi",
+    "helps": [
+      "Strawberries"
+    ],
+    "avoid": [
+      "Dill"
+    ],
+    "comments": "",
+    "wikiTitle": "Caraway"
+  },
+  {
+    "nameEn": "Catnip",
+    "nameLa": "Nepeta cataria",
+    "helps": [
+      "Eggplant"
+    ],
+    "avoid": [],
+    "comments": "",
+    "wikiTitle": "Catnip"
+  },
+  {
+    "nameEn": "Chamomile",
+    "nameLa": "Matricaria recutita",
+    "helps": [
+      "Most herbs",
+      "brassicas",
+      "cucumber",
+      "wheat",
+      "onion",
+      "cabbage"
+    ],
+    "avoid": [],
+    "comments": "Growing near herbs will increase their oil production.",
+    "wikiTitle": "Chamomile"
+  },
+  {
+    "nameEn": "Chervil",
+    "nameLa": "Anthriscus cerefolium",
+    "helps": [
+      "Radish",
+      "lettuce",
+      "broccoli"
+    ],
+    "avoid": [
+      "Radish"
+    ],
+    "comments": "Loves shade, fortunately it grows well with shade-tolerant food plants; will make radishes grown near it taste spicier",
+    "wikiTitle": "Chervil"
+  },
+  {
+    "nameEn": "Chives",
+    "nameLa": "Allium schoenoprasum",
+    "helps": [
+      "Apples",
+      "carrots",
+      "grapes",
+      "roses",
+      "tomatoes",
+      "brassica (broccoli",
+      "cabbage",
+      "mustard",
+      "etc.)",
+      "many others"
+    ],
+    "avoid": [
+      "Beans",
+      "peas"
+    ],
+    "comments": "Same companion traits as all alliums said to prevent apple scab after 3 years planting at base of apple trees",
+    "wikiTitle": "Chives"
+  },
+  {
+    "nameEn": "Cilantro / Coriander",
+    "nameLa": "Coriandrum sativum",
+    "helps": [
+      "Anise cabbage",
+      "spinach",
+      "lettuce",
+      "tomato"
+    ],
+    "avoid": [],
+    "comments": "Attracts hoverflies which may in turn reduce pest populations in cabbages.",
+    "wikiTitle": "Cilantro / Coriander"
+  },
+  {
+    "nameEn": "Dill",
+    "nameLa": "Anethum graveolens",
+    "helps": [
+      "Brassicas",
+      "cabbage",
+      "corn",
+      "fennel",
+      "lettuce",
+      "onions",
+      "cucumbers"
+    ],
+    "avoid": [
+      "Carrots"
+    ],
+    "comments": "One of the few plants said to grow with fennel: See fennel for info about intercropping.",
+    "wikiTitle": "Dill"
+  },
+  {
+    "nameEn": "Fennel",
+    "nameLa": "Foeniculum vulgare",
+    "helps": [
+      "Dill"
+    ],
+    "avoid": [],
+    "comments": "Fennel is allelopathic to most garden plants, inhibiting growth, causing to bolt, or actually killing many plants. When growing together a higher ratio of fennel to dill provides the highest profit. Dill has a stabilizing effect on the fennel seed. Because it attracts syrphidae it reduces aphids through predation.",
+    "wikiTitle": "Fennel"
+  },
+  {
+    "nameEn": "Flax",
+    "nameLa": "Linum usitatissimum",
+    "helps": [
+      "Carrots and potatoes"
+    ],
+    "avoid": [],
+    "comments": "Flax contains tannin and linseed oils which may offend the Colorado potato bug",
+    "wikiTitle": "Flax"
+  },
+  {
+    "nameEn": "Garlic",
+    "nameLa": "Allium sativum",
+    "helps": [
+      "Vetch",
+      "brassicas",
+      "beets",
+      "roses",
+      "tomatoes",
+      "cucumbers",
+      "lettuce",
+      "celery",
+      "peas",
+      "potatoes"
+    ],
+    "avoid": [
+      "Grapes"
+    ],
+    "comments": "See Alliums entry for more info. Peas and garlic when planted closely together suppress each other's growth; however the profit over land area used is higher. Tarragon makes garlic grow rapidly.",
+    "wikiTitle": "Garlic"
+  },
+  {
+    "nameEn": "Hyssop",
+    "nameLa": "Hyssopus officinalis",
+    "helps": [
+      "Brassicas",
+      "cabbage",
+      "grapes"
+    ],
+    "avoid": [
+      "Radishes"
+    ],
+    "comments": "Stimulates growth of grapes.",
+    "wikiTitle": "Hyssop"
+  },
+  {
+    "nameEn": "Lavender",
+    "nameLa": "Lavandula angustifolia, L. dentata, L. stoechas",
+    "helps": [
+      "Chamomile",
+      "lettuce",
+      "brassicas",
+      "onions",
+      "tomatoes",
+      "oregano",
+      "thyme",
+      "marjoram",
+      "sage",
+      "rosemary",
+      "basil",
+      "lemon balm",
+      "squash"
+    ],
+    "avoid": [],
+    "comments": "",
+    "wikiTitle": "Lavender"
+  },
+  {
+    "nameEn": "Lemon grass",
+    "nameLa": "Cymbopogon citratus",
+    "helps": [
+      "Eggplant"
+    ],
+    "avoid": [],
+    "comments": "Reduces cutworms in eggplant in laboratory trials",
+    "wikiTitle": "Lemon grass"
+  },
+  {
+    "nameEn": "Lovage",
+    "nameLa": "Levisticum officinale",
+    "helps": [
+      "Beans"
+    ],
+    "avoid": [
+      "Rhubarb"
+    ],
+    "comments": "Is thought to improve the health of almost all plants, like borage and geraniums, is considered a \"magic bullet\" of companion planting",
+    "wikiTitle": "Lovage"
+  },
+  {
+    "nameEn": "Oregano",
+    "nameLa": "Origanum vulgare",
+    "helps": [
+      "Grapes",
+      "tomatoes",
+      "peppers",
+      "pumpkin",
+      "many other plants"
+    ],
+    "avoid": [],
+    "comments": "Provides ground cover and much-needed humidity for pepper plants if allowed to spread among them. Because it attracts syrphidae, it reduces aphids through predation.",
+    "wikiTitle": "Oregano"
+  },
+  {
+    "nameEn": "Parsley",
+    "nameLa": "Petroselinum crispum",
+    "helps": [
+      "Asparagus",
+      "corn/maize",
+      "tomatoes"
+    ],
+    "avoid": [
+      "Alliums",
+      "lettuce"
+    ],
+    "comments": "Sacrificially attracts insects that feed on tomatoes",
+    "wikiTitle": "Parsley"
+  },
+  {
+    "nameEn": "Peppermint",
+    "nameLa": "Mentha piperita",
+    "helps": [
+      "Alliums",
+      "brassicas",
+      "cabbage",
+      "peas",
+      "tomatoes"
+    ],
+    "avoid": [],
+    "comments": "Repels cabbage flies, has same general companion properties as other mints",
+    "wikiTitle": "Peppermint"
+  },
+  {
+    "nameEn": "Rosemary",
+    "nameLa": "Rosmarinus officinalis",
+    "helps": [
+      "Cabbage",
+      "beans",
+      "brassicas",
+      "carrots",
+      "thyme"
+    ],
+    "avoid": [],
+    "comments": "Deters cabbage flies, repels many bean parasites",
+    "wikiTitle": "Rosemary"
+  },
+  {
+    "nameEn": "Sage",
+    "nameLa": "Salvia officinalis",
+    "helps": [
+      "Brassicas",
+      "rosemary",
+      "cabbage",
+      "beans",
+      "Brussels sprouts",
+      "carrots",
+      "strawberry",
+      "tomato",
+      "marjoram"
+    ],
+    "avoid": [
+      "Avoid any member of the allium family and common rue"
+    ],
+    "comments": "",
+    "wikiTitle": "Sage"
+  },
+  {
+    "nameEn": "Southernwood",
+    "nameLa": "Artemisia abrotanum",
+    "helps": [
+      "Brassicas",
+      "fruit trees"
+    ],
+    "avoid": [],
+    "comments": "Controls cabbage moths and malaria mosquitoes.",
+    "wikiTitle": "Southernwood"
+  },
+  {
+    "nameEn": "Spearmint",
+    "nameLa": "Mentha spicata",
+    "helps": [
+      "Alliums",
+      "brassicas",
+      "cabbage",
+      "peas",
+      "tomatoes"
+    ],
+    "avoid": [],
+    "comments": "Controls ants and aphids.",
+    "wikiTitle": "Spearmint"
+  },
+  {
+    "nameEn": "Stinging nettle",
+    "nameLa": "Urtica dioica",
+    "helps": [
+      "Chamomille",
+      "mint",
+      "broccoli",
+      "tomatoes",
+      "valerian",
+      "angelica archangelica",
+      "marjoram",
+      "sage & peppermint"
+    ],
+    "avoid": [],
+    "comments": "",
+    "wikiTitle": "Stinging nettle"
+  },
+  {
+    "nameEn": "Summer savoury",
+    "nameLa": "Satureja hortensis",
+    "helps": [
+      "Beans",
+      "melon",
+      "onions"
+    ],
+    "avoid": [],
+    "comments": "Also delays germination of certain foul herbs",
+    "wikiTitle": "Summer savoury"
+  },
+  {
+    "nameEn": "Tarragon",
+    "nameLa": "Artemisia dracunculus",
+    "helps": [
+      "Most vegetables",
+      "but especially eggplant"
+    ],
+    "avoid": [],
+    "comments": "Its scent is disliked by most pests, and this plant is also thought to have Nurse Plant properties, enhancing the growth and flavor of crops grown with it.",
+    "wikiTitle": "Tarragon"
+  },
+  {
+    "nameEn": "Thyme",
+    "nameLa": "Thymus vulgaris",
+    "helps": [
+      "Brassicas",
+      "cabbage",
+      "eggplant/aubergine",
+      "potato",
+      "strawberry",
+      "tomato",
+      "Brussels sprouts"
+    ],
+    "avoid": [],
+    "comments": "Because it attracts Syrphidae, it reduces aphids through predation.",
+    "wikiTitle": "Thyme"
+  },
+  {
+    "nameEn": "Wormwood",
+    "nameLa": "Artemisia absinthium",
+    "helps": [
+      "Brassicas",
+      "carrots"
+    ],
+    "avoid": [],
+    "comments": "Wormwood should be used with caution around most vegetables since it contains toxins.",
+    "wikiTitle": "Wormwood"
+  },
+  {
+    "nameEn": "Yarrow",
+    "nameLa": "Achillea millefolium",
+    "helps": [
+      "Many plants",
+      "\"Most aromatic plants.\""
+    ],
+    "avoid": [],
+    "comments": "May increase the essential oil production of some herbs. Also improves soil quality, use the leaves to enrich compost, or as mulch. Because it attracts syrphidae it reduces aphids through predation.",
+    "wikiTitle": "Yarrow"
+  },
+  {
+    "nameEn": "Alyssum",
+    "nameLa": "Lobularia maritima",
+    "helps": [
+      "Lettuce"
+    ],
+    "avoid": [],
+    "comments": "Because they attract syrphidae they help reduce aphids through predation.",
+    "wikiTitle": "Alyssum"
+  },
+  {
+    "nameEn": "Baby's breath",
+    "nameLa": "Gypsophila paniculata",
+    "helps": [],
+    "avoid": [],
+    "comments": "Because they attract Syrphidae, they help reduce aphids through predation.",
+    "wikiTitle": "Baby's breath"
+  },
+  {
+    "nameEn": "Bee balm",
+    "nameLa": "Monarda spp.",
+    "helps": [
+      "Tomato"
+    ],
+    "avoid": [],
+    "comments": "",
+    "wikiTitle": "Bee balm"
+  },
+  {
+    "nameEn": "Californian poppy",
+    "nameLa": "Eschscholzia californica",
+    "helps": [],
+    "avoid": [],
+    "comments": "Because they attract Syrphidae, they help reduce aphids through predation.",
+    "wikiTitle": "Californian poppy"
+  },
+  {
+    "nameEn": "Dianthus",
+    "nameLa": "Dianthus caryophyllus",
+    "helps": [
+      "Roses",
+      "lavender",
+      "echinacea",
+      "aster",
+      "foxglove"
+    ],
+    "avoid": [],
+    "comments": "",
+    "wikiTitle": "Dianthus"
+  },
+  {
+    "nameEn": "Geraniums",
+    "nameLa": "Pelargonium spp.",
+    "helps": [
+      "Roses",
+      "corn",
+      "peppers",
+      "grapes"
+    ],
+    "avoid": [
+      "Tomatoes",
+      "tobacco",
+      "eggplants and other nightshades"
+    ],
+    "comments": "A trap crop, attracting pests away from roses and grape vines, distracts beet leafhoppers, carrier of the curly top virus, keep away from solanaceous plants like eggplant, and tobacco",
+    "wikiTitle": "Geraniums"
+  },
+  {
+    "nameEn": "Larkspur",
+    "nameLa": "Delphinium spp.",
+    "helps": [
+      "Beans",
+      "cabbage"
+    ],
+    "avoid": [],
+    "comments": "",
+    "wikiTitle": "Larkspur"
+  },
+  {
+    "nameEn": "Lupin",
+    "nameLa": "Lupinus",
+    "helps": [
+      "Cucurbits",
+      "brassica",
+      "lettuce",
+      "rosemary",
+      "dill",
+      "strawberry",
+      "rose"
+    ],
+    "avoid": [
+      "Tomatoes and other solanaceae"
+    ],
+    "comments": "This wildflower is a legume, hosting bacteria that fixes nitrogen in the soil, fertilizing it for neighboring plants. Same with marigold, planting nearby roses causes them to grow vigorously.",
+    "wikiTitle": "Lupin"
+  },
+  {
+    "nameEn": "Marigold",
+    "nameLa": "Tagetes patula, T. erecta, T. minuta",
+    "helps": [
+      "Most plants",
+      "especially tomatoes and peppers",
+      "cucurbits (cucumbers",
+      "gourds",
+      "squash",
+      "potatoes",
+      "roses",
+      "alliums",
+      "brassicas",
+      "zucchini"
+    ],
+    "avoid": [],
+    "comments": "Marigolds are a wonder-drug of the companion plant world, invoking the saying \"plant them everywhere in your garden\". French marigolds produce a pesticidal chemical from their roots, so strong it lasts years after they are gone. Mexican marigolds do the same, but are so strong they will inhibit the growth of some more tender herbs. Stinking Roger has also been found effective against certain perennial weeds. Same with lupin, planting nearby roses causes them to grow vigorously.",
+    "wikiTitle": "Marigold"
+  },
+  {
+    "nameEn": "Nasturtium",
+    "nameLa": "Tropaeolum majus",
+    "helps": [
+      "Beans",
+      "squash",
+      "tomatoes",
+      "fruit trees",
+      "brassicas",
+      "radish cucumbers"
+    ],
+    "avoid": [
+      "Cauliflower"
+    ],
+    "comments": "Trap crops for aphids, is among the best at attracting predatory insects, deters many pests of cucurbits",
+    "wikiTitle": "Nasturtium"
+  },
+  {
+    "nameEn": "Pansy",
+    "nameLa": "Viola x wittrockiana",
+    "helps": [
+      "Alliums",
+      "onions",
+      "roses"
+    ],
+    "avoid": [
+      "Ants",
+      "snails",
+      "slugs",
+      "white butterfly"
+    ],
+    "comments": "A good and nice-smelling flower that really attracts ants. It is like the viola plant, but has two or three colors in flowers. Helps alliums and onions, which repels the white butterfly.",
+    "wikiTitle": "Pansy"
+  },
+  {
+    "nameEn": "Petunia",
+    "nameLa": "Petunia x hybrida",
+    "helps": [
+      "Cucurbits (squash",
+      "pumpkins",
+      "cucumbers)",
+      "asparagus"
+    ],
+    "avoid": [],
+    "comments": "Is a trap crop almost identical to geraniums in function",
+    "wikiTitle": "Petunia"
+  },
+  {
+    "nameEn": "Phacelia",
+    "nameLa": "Phacelia tanacetifolia",
+    "helps": [
+      "Plants which are prone to aphids",
+      "especially lettuce",
+      "tomato",
+      "rose"
+    ],
+    "avoid": [],
+    "comments": "This plant attracts hoverflies and is good around plants which are prone to aphids.",
+    "wikiTitle": "Phacelia"
+  },
+  {
+    "nameEn": "Rose",
+    "nameLa": "Rosa spp.",
+    "helps": [],
+    "avoid": [],
+    "comments": "",
+    "wikiTitle": "Rose"
+  },
+  {
+    "nameEn": "Sunflower",
+    "nameLa": "Helianthus annuus",
+    "helps": [
+      "Peppers",
+      "corn",
+      "cucumber",
+      "soybeans",
+      "tomatoes",
+      "swan plant"
+    ],
+    "avoid": [
+      "Pole beans"
+    ],
+    "comments": "Was grown as a companion for corn before modern Europeans arrived in the Americas, supposedly increases their production, ants herd aphids onto sunflowers, keeping them off neighboring plants. Works as a trap plant for thrips keeping them off of bell peppers. Planting near swan plants help sunflowers grow rapidly.",
+    "wikiTitle": "Sunflower"
+  },
+  {
+    "nameEn": "Swan plant",
+    "nameLa": "Gomphocarpus physocarpus, Asclepias physocarpa, milkweed",
+    "helps": [
+      "Sunflower"
+    ],
+    "avoid": [
+      "Plants that attracts aphids and spider mites"
+    ],
+    "comments": "Attracts the monarch butterfly during spring and summer. Basil repels pests that attracts by the swan plant like aphids.",
+    "wikiTitle": "Swan plant"
+  },
+  {
+    "nameEn": "Sweet pea",
+    "nameLa": "Lathyrus odoratus",
+    "helps": [
+      "Sweet alyssum",
+      "lobelia",
+      "roses",
+      "lavender",
+      "catmint"
+    ],
+    "avoid": [
+      "Aphids"
+    ],
+    "comments": "An annual climbing plant, which is like the edible pea. Makes a good decoration in your garden or fence.",
+    "wikiTitle": "Sweet pea"
+  },
+  {
+    "nameEn": "Tansy",
+    "nameLa": "Tanacetum vulgare",
+    "helps": [
+      "Beans",
+      "cucurbits (cucumbers",
+      "squash",
+      "etc.)",
+      "raspberries and relatives",
+      "roses",
+      "corn",
+      "fruit trees"
+    ],
+    "avoid": [],
+    "comments": "Toxic to people and many animals; do not plant it where livestock browse. Is reputed to repel herbivorous insects.",
+    "wikiTitle": "Tansy"
+  },
+  {
+    "nameEn": "Zinnia",
+    "nameLa": "Zinnia",
+    "helps": [
+      "Beans",
+      "tomatoes",
+      "peppers"
+    ],
+    "avoid": [],
+    "comments": "Attracts hummingbirds that eat whiteflies, attracts pollinators",
+    "wikiTitle": "Zinnia"
+  },
+  {
+    "nameEn": "Alfalfa",
+    "nameLa": "Medicago sativa",
+    "helps": [
+      "Cotton"
+    ],
+    "avoid": [
+      "Tomatoes",
+      "fava beans"
+    ],
+    "comments": "Used by farmers to reduce cotton pests, a good crop to improve soil; fixes nitrogen. Alfalfa has some allelopathic effects to tomato seedlings.",
+    "wikiTitle": "Alfalfa"
+  },
+  {
+    "nameEn": "Peanut",
+    "nameLa": "Arachis hypogaea",
+    "helps": [
+      "Beans",
+      "corn",
+      "cucumber",
+      "eggplant",
+      "lettuce",
+      "marigold",
+      "melon and sunflower"
+    ],
+    "avoid": [],
+    "comments": "Peanuts encourage growth of corn and squash",
+    "wikiTitle": "Peanut"
+  },
+  {
+    "nameEn": "Walnut tree",
+    "nameLa": "Juglans spp.",
+    "helps": [
+      "Many types of grass including Kentucky bluegrass ."
+    ],
+    "avoid": [
+      "Apple trees",
+      "grasses"
+    ],
+    "comments": "Black walnut is harmful to the growth of all nightshade plants, including Datura or Jimson weed, eggplant, mandrake, deadly nightshade or belladonna, capsicum , potato, tomato, and petunia.",
+    "wikiTitle": "Walnut tree"
+  }
+]

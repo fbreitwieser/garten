@@ -1,0 +1,11 @@
+{
+  "_comment": "Manual overrides for plants.json entries. Keys are plant IDs. Merged on top of enriched data.",
+  "fennel": {
+    "names": { "de": "Fenchel", "fr": "Fenouil" },
+    "comments": "Allelopathic — inhibits many vegetables. Keep isolated."
+  },
+  "marigold": {
+    "names": { "de": "Ringelblume", "fr": "Souci" },
+    "comments": "Repels nematodes and whitefly. Excellent border plant."
+  }
+}

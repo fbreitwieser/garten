@@ -1,0 +1,1846 @@
+{
+  "version": "2026-05-10",
+  "plants": [
+    {
+      "id": "alliums",
+      "names": {
+        "en": "Alliums",
+        "de": "Lauch (Gattung)",
+        "fr": "Allium",
+        "la": "Allium"
+      },
+      "synonyms": [],
+      "helps": [
+        "fruit-trees",
+        "nightshades",
+        "peppers",
+        "brassicas",
+        "carrots"
+      ],
+      "avoid": [
+        "beans-bush",
+        "peas"
+      ],
+      "comments": "Allium is a genus of plants which includes onions and garlic.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "asparagus",
+      "names": {
+        "en": "Asparagus",
+        "de": "Gemüsespargel",
+        "fr": "Asperge",
+        "la": "Asparagus officinalis"
+      },
+      "synonyms": [],
+      "helps": [
+        "tomatoes",
+        "parsley"
+      ],
+      "avoid": [
+        "onion",
+        "garlic"
+      ],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "beans-bush",
+      "names": {
+        "en": "Beans, bush",
+        "de": "Beans, bush",
+        "fr": "Beans, bush",
+        "la": "Phaseolus vulgaris"
+      },
+      "synonyms": [],
+      "helps": [
+        "cucumber",
+        "strawberries"
+      ],
+      "avoid": [
+        "alfalfa"
+      ],
+      "comments": "\"Lettuce, potato, tomato, other legumes, crucifers, or cucurbits increase sclerotinia\" in the soil and should be avoided before and after snap beans. See the entry for \"Legumes\" for more info",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "beans-pole",
+      "names": {
+        "en": "Beans, pole",
+        "de": "Beans, pole",
+        "fr": "Beans, pole",
+        "la": "Phaseolus vulgaris"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [
+        "brassicas",
+        "kohlrabi"
+      ],
+      "comments": "the stalk of the corn provides a pole for the beans to grow on, which then gives nitrogen to the soil of the corn. Beans and corn are traditional \"Three Sisters\" plants. As for Radishes, see the entry for \"Legumes\".",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "beans-fava",
+      "names": {
+        "en": "Beans, fava",
+        "de": "Beans, fava",
+        "fr": "Beans, fava",
+        "la": "Vicia faba"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [],
+      "comments": "See the entry for \"Legumes\" for more info",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "beets",
+      "names": {
+        "en": "Beets",
+        "de": "Beets",
+        "fr": "Beets",
+        "la": "Beta vulgaris"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "cabbage",
+        "lettuce",
+        "kohlrabi",
+        "brassicas",
+        "passion-fruit"
+      ],
+      "avoid": [],
+      "comments": "Good for adding minerals to the soil through composting leaves which have up to 25% magnesium. Runner or pole beans and beets stunt each other's growth.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "brassicas",
+      "names": {
+        "en": "Brassicas",
+        "de": "Brassicas",
+        "fr": "Brassicas",
+        "la": "Brassica"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [
+        "nightshades",
+        "peppers",
+        "beans-pole",
+        "strawberries"
+      ],
+      "comments": "Brassicas are a family of plants which includes broccoli, Brussels sprouts, cabbage, cauliflower, Chinese cabbage, kohlrabi, radish, and turnip. Thyme, nasturtiums, and onion showed good resistance to cabbage worm, weevil and cabbage looper.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "broccoli",
+      "names": {
+        "en": "Broccoli",
+        "de": "Broccoli",
+        "fr": "Broccoli",
+        "la": "Brassica oleracea"
+      },
+      "synonyms": [],
+      "helps": [
+        "lettuce"
+      ],
+      "avoid": [],
+      "comments": "Broccoli as a main crop intercropped with lettuce was shown to be more profitable than either crop alone. Turnip acts as a trap crop. See brassicas entry for more info",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "brussels-sprouts",
+      "names": {
+        "en": "Brussels sprouts",
+        "de": "Brussels sprouts",
+        "fr": "Brussels sprouts",
+        "la": "Brassica oleracea"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "cabbage",
+      "names": {
+        "en": "Cabbage",
+        "de": "Cabbage",
+        "fr": "Cabbage",
+        "la": "Brassica oleracea / Brassica chinensis"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "celery"
+      ],
+      "avoid": [
+        "grapes"
+      ],
+      "comments": "See brassicas entry for more info. If using clover as an intercrop it should be sown after cabbage transplant so as not to affect crop yield. Nasturtiums repel cabbage moths",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "carrots",
+      "names": {
+        "en": "Carrots",
+        "de": "Carrots",
+        "fr": "Carrots",
+        "la": "Daucus carota"
+      },
+      "synonyms": [],
+      "helps": [
+        "tomatoes",
+        "alliums",
+        "beans-bush",
+        "lettuce",
+        "passion-fruit"
+      ],
+      "avoid": [
+        "dill",
+        "parsnip",
+        "radish"
+      ],
+      "comments": "Tomatoes grow better with carrots, but may stunt the carrots' growth. Beans provide the nitrogen carrots need more than some other vegetables. Aromatic companion plants repel carrot fly. Alliums inter-planted with carrots confuse onion and carrot flies. For the beneficial insect-attracting properties of carrots to work, they need to be allowed to flower; Otherwise, use wild carrot, Queen Anne's Lace, for the same effect.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "cauliflower",
+      "names": {
+        "en": "Cauliflower",
+        "de": "Cauliflower",
+        "fr": "Cauliflower",
+        "la": "Brassica oleracea"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "celery",
+        "spinach",
+        "peas"
+      ],
+      "avoid": [],
+      "comments": "See brassicas for more info. See peas regarding their mutualism with cauliflower.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "celery",
+      "names": {
+        "en": "Celery",
+        "de": "Celery",
+        "fr": "Celery",
+        "la": "Apium graveolens"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "brassicas",
+        "cucumber"
+      ],
+      "avoid": [
+        "corn-maize"
+      ],
+      "comments": "Aster flowers, can transmit the aster yellows disease",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "chard",
+      "names": {
+        "en": "Chard",
+        "de": "Chard",
+        "fr": "Chard",
+        "la": "Beta vulgaris ssp. cicla"
+      },
+      "synonyms": [],
+      "helps": [
+        "brassicas",
+        "passion-fruit"
+      ],
+      "avoid": [],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "corn-maize",
+      "names": {
+        "en": "Corn / Maize",
+        "de": "Corn / Maize",
+        "fr": "Corn / Maize",
+        "la": "Zea mays"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "cucurbits",
+        "tomatoes"
+      ],
+      "avoid": [
+        "tomatoes",
+        "celery"
+      ],
+      "comments": "Provides beans with a trellis, is protected from predators and dryness by cucurbits, in the three sisters technique",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "cucumber",
+      "names": {
+        "en": "Cucumber",
+        "de": "Cucumber",
+        "fr": "Cucumber",
+        "la": "Cucumis sativus"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "kohlrabi",
+        "lettuce"
+      ],
+      "avoid": [
+        "potato"
+      ],
+      "comments": "Sow 2 or 3 radish seeds in with cucumbers to repel cucumber beetles. One study showed a 75% reduction in cucumber beetles with the concurrent seeding of amaranth. Various sprays from lettuce, asparagus, Malabar spinach, and celery were found to reduce whiteflies. See cucurbits entry for more info",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "cucurbits",
+      "names": {
+        "en": "Cucurbits",
+        "de": "Cucurbits",
+        "fr": "Cucurbits",
+        "la": "Cucurbitaceae"
+      },
+      "synonyms": [],
+      "helps": [
+        "corn-maize"
+      ],
+      "avoid": [],
+      "comments": "Cucurbits are a family of plants that includes melons, cucumbers, gourds, pumpkins, and squash",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "eggplant-or-aubergine",
+      "names": {
+        "en": "Eggplant or Aubergine",
+        "de": "Eggplant or Aubergine",
+        "fr": "Eggplant or Aubergine",
+        "la": "Solanum melongena"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "peppers",
+        "tomatoes",
+        "passion-fruit"
+      ],
+      "avoid": [],
+      "comments": "Marigolds will deter nematodes.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "kohlrabi",
+      "names": {
+        "en": "Kohlrabi",
+        "de": "Kohlrabi",
+        "fr": "Kohlrabi",
+        "la": "Brassica oleracea v. gongylodes"
+      },
+      "synonyms": [],
+      "helps": [
+        "onion",
+        "beets"
+      ],
+      "avoid": [],
+      "comments": "See Brassicas entry for more info",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "leek",
+      "names": {
+        "en": "Leek",
+        "de": "Leek",
+        "fr": "Leek",
+        "la": "Allium ampeloprasum v. porrum"
+      },
+      "synonyms": [],
+      "helps": [
+        "carrots",
+        "celery",
+        "tomatoes",
+        "passion-fruit"
+      ],
+      "avoid": [],
+      "comments": "See Alliums entry for more info",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "legumes",
+      "names": {
+        "en": "Legumes",
+        "de": "Legumes",
+        "fr": "Legumes",
+        "la": "Phaseolus and Vicia"
+      },
+      "synonyms": [],
+      "helps": [
+        "beets",
+        "lettuce",
+        "okra",
+        "potato",
+        "cabbage",
+        "carrots",
+        "eggplant-or-aubergine",
+        "peas",
+        "tomatoes",
+        "brassicas",
+        "corn-maize",
+        "grapes"
+      ],
+      "avoid": [
+        "alliums"
+      ],
+      "comments": "Hosts nitrogen-fixing bacteria, a good fertiliser for some plants, too much for others. Rosemary and peppermint extracts are used in organic sprays for beans. Summer savory and potatoes repel bean beetles.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "lettuce",
+      "names": {
+        "en": "Lettuce",
+        "de": "Lettuce",
+        "fr": "Lettuce",
+        "la": "Lactuca sativa"
+      },
+      "synonyms": [],
+      "helps": [
+        "beets",
+        "beans-bush",
+        "okra",
+        "radish",
+        "broccoli",
+        "carrots",
+        "passion-fruit"
+      ],
+      "avoid": [
+        "celery",
+        "cabbage",
+        "parsley"
+      ],
+      "comments": "Broccoli when intercropped with lettuce was shown to be more profitable than either crop alone.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "mustard",
+      "names": {
+        "en": "Mustard",
+        "de": "Mustard",
+        "fr": "Mustard",
+        "la": "Sinapis alba"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "cabbage",
+        "cauliflower",
+        "fruit-trees",
+        "grapes",
+        "radish",
+        "brussels-sprouts",
+        "turnips-and-rutabagas"
+      ],
+      "avoid": [],
+      "comments": "See Brassicas entry.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "nightshades",
+      "names": {
+        "en": "Nightshades",
+        "de": "Nightshades",
+        "fr": "Nightshades",
+        "la": "Solanaceae"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [
+        "beans-bush",
+        "corn-maize",
+        "fennel",
+        "dill",
+        "brassicas"
+      ],
+      "comments": "Nightshades are a family of plants which include tomatoes, tobacco, chili peppers , potatoes, eggplant, and others",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "okra",
+      "names": {
+        "en": "Okra",
+        "de": "Okra",
+        "fr": "Okra",
+        "la": "Abelmoschus esculentus"
+      },
+      "synonyms": [],
+      "helps": [
+        "sweet-potato",
+        "tomatoes",
+        "peppers"
+      ],
+      "avoid": [],
+      "comments": "Okra and sweet potato are mutually beneficial when planted simultaneously.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "onion",
+      "names": {
+        "en": "Onion",
+        "de": "Onion",
+        "fr": "Onion",
+        "la": "Allium cepa"
+      },
+      "synonyms": [],
+      "helps": [
+        "beets",
+        "brassicas",
+        "cabbage",
+        "broccoli",
+        "carrots",
+        "lettuce",
+        "peppers",
+        "passion-fruit"
+      ],
+      "avoid": [
+        "peas",
+        "beans-bush"
+      ],
+      "comments": "See Alliums entry for more info",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "parsnip",
+      "names": {
+        "en": "Parsnip",
+        "de": "Parsnip",
+        "fr": "Parsnip",
+        "la": "Pastinaca sativa"
+      },
+      "synonyms": [],
+      "helps": [
+        "fruit-trees"
+      ],
+      "avoid": [],
+      "comments": "The flowers of the parsnip plant left to seed will attract a variety of predatory insects to the garden, they are particularly helpful when left under fruit trees, the predators attacking codling moth and light brown apple moth.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "peas",
+      "names": {
+        "en": "Peas",
+        "de": "Peas",
+        "fr": "Peas",
+        "la": "Pisum sativum"
+      },
+      "synonyms": [],
+      "helps": [
+        "turnips-and-rutabagas",
+        "cauliflower",
+        "garlic"
+      ],
+      "avoid": [],
+      "comments": "Peas when intercropped with turnips, cauliflower, or garlic showed mutual suppression of growth however their profit per land area used was increased.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "peppers",
+      "names": {
+        "en": "Peppers",
+        "de": "Peppers",
+        "fr": "Peppers",
+        "la": "Solanaceae, Capsicum"
+      },
+      "synonyms": [],
+      "helps": [
+        "okra"
+      ],
+      "avoid": [
+        "beans-bush",
+        "brussels-sprouts"
+      ],
+      "comments": "Pepper plants like high humidity, which can be helped along by planting with some kind of dense-leaf or ground-cover companion, like marjoram and basil; pepper plants grown together, or with tomatoes, can shelter the fruit from excess sunlight, and raise the humidity level. Sunflowers, when in bloom at the right time, shelter beneficial insects, lowering thrips populations.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "potato",
+      "names": {
+        "en": "Potato",
+        "de": "Potato",
+        "fr": "Potato",
+        "la": "Solanum tuberosum"
+      },
+      "synonyms": [],
+      "helps": [
+        "brassicas",
+        "beans-bush",
+        "corn-maize",
+        "peas",
+        "passion-fruit"
+      ],
+      "avoid": [
+        "carrots",
+        "cucumber",
+        "pumpkin",
+        "squash",
+        "sunflower",
+        "tomatoes"
+      ],
+      "comments": "Horseradish increases the disease resistance of potatoes. It repels the potato bug. Garlic is more effective than fungicides on late potato blight. Peas were shown to reduce the density of Colorado potato beetles.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "pumpkin",
+      "names": {
+        "en": "Pumpkin",
+        "de": "Pumpkin",
+        "fr": "Pumpkin",
+        "la": "Cucurbita pepo"
+      },
+      "synonyms": [],
+      "helps": [
+        "corn-maize",
+        "beans-bush"
+      ],
+      "avoid": [],
+      "comments": "Radishes can be used as a trap crop against flea beetles, cucurbita can be used in the Three Sisters technique. Nasturtiums repel squash bugs.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "radish",
+      "names": {
+        "en": "Radish",
+        "de": "Radish",
+        "fr": "Radish",
+        "la": "Raphanus sativus"
+      },
+      "synonyms": [],
+      "helps": [
+        "squash",
+        "cucumber",
+        "lettuce",
+        "peas",
+        "beans-bush",
+        "beans-pole"
+      ],
+      "avoid": [
+        "grapes"
+      ],
+      "comments": "Radishes can be used as a trap crop against flea beetles. Radishes grown with lettuce taste better.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "soybean",
+      "names": {
+        "en": "Soybean",
+        "de": "Soybean",
+        "fr": "Soybean",
+        "la": "Glycine max"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [],
+      "comments": "A mixture of corn, mungbean, and sunflower was found to rid soybeans of aphids.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "spinach",
+      "names": {
+        "en": "Spinach",
+        "de": "Spinach",
+        "fr": "Spinach",
+        "la": "Spinacia oleracea"
+      },
+      "synonyms": [],
+      "helps": [
+        "brassicas",
+        "passion-fruit"
+      ],
+      "avoid": [],
+      "comments": "The peas and beans provide natural shade for the spinach. See cauliflower notes regarding mutualism with spinach.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "squash",
+      "names": {
+        "en": "Squash",
+        "de": "Squash",
+        "fr": "Squash",
+        "la": "Cucurbita spp."
+      },
+      "synonyms": [],
+      "helps": [
+        "corn-maize",
+        "beans-bush",
+        "okra"
+      ],
+      "avoid": [],
+      "comments": "Radishes can be used as a trap crop against flea beetles, cucurbita can be used in the three sisters technique. Marigolds and nasturtiums repel squash bugs. Marigolds repel cucumber beetles.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "sweet-potato",
+      "names": {
+        "en": "Sweet potato",
+        "de": "Sweet potato",
+        "fr": "Sweet potato",
+        "la": "Ipomoea batatas"
+      },
+      "synonyms": [],
+      "helps": [
+        "okra"
+      ],
+      "avoid": [],
+      "comments": "Okra and sweet potato are mutually beneficial when planted simultaneously.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "tomatoes",
+      "names": {
+        "en": "Tomatoes",
+        "de": "Tomatoes",
+        "fr": "Tomatoes",
+        "la": "Solanum lycopersicum"
+      },
+      "synonyms": [],
+      "helps": [
+        "celery",
+        "peppers",
+        "asparagus"
+      ],
+      "avoid": [
+        "alfalfa",
+        "corn-maize",
+        "fennel",
+        "peas",
+        "dill",
+        "brassicas",
+        "rosemary"
+      ],
+      "comments": "Black walnuts inhibit tomato growth, in fact they are negative allelopathic to all other nightshade plants as well, because it produces a chemical called juglone. Dill attracts tomato hornworm.Growing tomatoes with Basil does not appear to enhance tomato flavour but studies have shown that growing them around 10 inches apart can increase the yield of tomatoes by about 20%. One study shows that growing chili peppers near tomatoes in greenhouses increases tomato whitefly on the tomatoes. Cucumbers and squash can be used as living mulch, or green mulch, around tomato plants. The large leaves of these vining plants can help with soil moisture retention.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "turnips-and-rutabagas",
+      "names": {
+        "en": "Turnips and rutabagas",
+        "de": "Turnips and rutabagas",
+        "fr": "Turnips and rutabagas",
+        "la": "Brassica rapa and Brassica napobrassica"
+      },
+      "synonyms": [],
+      "helps": [
+        "peas",
+        "broccoli"
+      ],
+      "avoid": [],
+      "comments": "Turnips act as a trap crop for broccoli. See peas regarding their mutualism with turnips.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "apple",
+      "names": {
+        "en": "Apple",
+        "de": "Apple",
+        "fr": "Apple",
+        "la": "Malus domestica"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [],
+      "comments": "French marigold inhibits codling moth but also its insect enemies, and fails to reduce damage to apples.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "apricot",
+      "names": {
+        "en": "Apricot",
+        "de": "Apricot",
+        "fr": "Apricot",
+        "la": "Prunus armeniaca"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [
+        "peppers"
+      ],
+      "comments": "A fungus that peppers are prone to can infect apricot trees causing a lot of harm.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "blueberries",
+      "names": {
+        "en": "Blueberries",
+        "de": "Blueberries",
+        "fr": "Blueberries",
+        "la": "Vaccinium spp."
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [
+        "tomatoes"
+      ],
+      "comments": "Pine and oak trees create the acidic soil blueberries need. Strawberries and dewberries create healthy ground cover, clover fixes nitrogen for the blueberries' high needs, yarrow and bay laurel repel unhealthy insects. Each of the herbal companions listed also like the acidic soil the blueberry plant needs.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "fruit-trees",
+      "names": {
+        "en": "Fruit trees",
+        "de": "Fruit trees",
+        "fr": "Fruit trees",
+        "la": "Various"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "grapes",
+      "names": {
+        "en": "Grapes",
+        "de": "Grapes",
+        "fr": "Grapes",
+        "la": "Vitis spp."
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [
+        "cabbage",
+        "garlic"
+      ],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "melon",
+      "names": {
+        "en": "Melon",
+        "de": "Melon",
+        "fr": "Melon",
+        "la": "Cucumis melo"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "passion-fruit",
+      "names": {
+        "en": "Passion fruit",
+        "de": "Passion fruit",
+        "fr": "Passion fruit",
+        "la": "Passiflora edulis"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [
+        "cucurbits",
+        "corn-maize",
+        "okra",
+        "sweet-potato"
+      ],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "pears",
+      "names": {
+        "en": "Pears",
+        "de": "Pears",
+        "fr": "Pears",
+        "la": "Pyrus spp."
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "strawberries",
+      "names": {
+        "en": "Strawberries",
+        "de": "Strawberries",
+        "fr": "Strawberries",
+        "la": "Fragaria × ananassa"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "lettuce",
+        "spinach",
+        "passion-fruit"
+      ],
+      "avoid": [
+        "brassicas",
+        "eggplant-or-aubergine",
+        "peppers",
+        "okra",
+        "peppermint",
+        "beans-bush"
+      ],
+      "comments": "Thyme planted and/or placed next to each other help grow more strawberries quickly.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "anise",
+      "names": {
+        "en": "Anise",
+        "de": "Anise",
+        "fr": "Anise",
+        "la": "Pimpinella anisum"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [],
+      "comments": "Not to be confused with star anise which is an entirely different species.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "basil",
+      "names": {
+        "en": "Basil",
+        "de": "Basil",
+        "fr": "Basil",
+        "la": "Ocimum basilicum"
+      },
+      "synonyms": [],
+      "helps": [
+        "tomatoes",
+        "peppers",
+        "oregano",
+        "asparagus",
+        "grapes"
+      ],
+      "avoid": [
+        "thyme"
+      ],
+      "comments": "Is said to make tomatoes taste better, chamomile and anise are supposed to increase the essential oils in many herbs like basil",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "borage",
+      "names": {
+        "en": "Borage",
+        "de": "Borage",
+        "fr": "Borage",
+        "la": "Borago officinalis"
+      },
+      "synonyms": [],
+      "helps": [
+        "cucurbits",
+        "fruit-trees",
+        "tomatoes"
+      ],
+      "avoid": [],
+      "comments": "Predict a square metre for its adult size. Borage is a good companion for a wide variety of plants.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "caraway",
+      "names": {
+        "en": "Caraway",
+        "de": "Caraway",
+        "fr": "Caraway",
+        "la": "Carum carvi"
+      },
+      "synonyms": [],
+      "helps": [
+        "strawberries"
+      ],
+      "avoid": [
+        "dill"
+      ],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "catnip",
+      "names": {
+        "en": "Catnip",
+        "de": "Catnip",
+        "fr": "Catnip",
+        "la": "Nepeta cataria"
+      },
+      "synonyms": [],
+      "helps": [
+        "eggplant-or-aubergine"
+      ],
+      "avoid": [],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "chamomile",
+      "names": {
+        "en": "Chamomile",
+        "de": "Chamomile",
+        "fr": "Chamomile",
+        "la": "Matricaria recutita"
+      },
+      "synonyms": [],
+      "helps": [
+        "brassicas",
+        "cucumber",
+        "onion",
+        "cabbage"
+      ],
+      "avoid": [],
+      "comments": "Growing near herbs will increase their oil production.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "chervil",
+      "names": {
+        "en": "Chervil",
+        "de": "Chervil",
+        "fr": "Chervil",
+        "la": "Anthriscus cerefolium"
+      },
+      "synonyms": [],
+      "helps": [
+        "radish",
+        "lettuce",
+        "broccoli"
+      ],
+      "avoid": [
+        "radish"
+      ],
+      "comments": "Loves shade, fortunately it grows well with shade-tolerant food plants; will make radishes grown near it taste spicier",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "chives",
+      "names": {
+        "en": "Chives",
+        "de": "Chives",
+        "fr": "Chives",
+        "la": "Allium schoenoprasum"
+      },
+      "synonyms": [],
+      "helps": [
+        "carrots",
+        "grapes",
+        "tomatoes",
+        "brassicas",
+        "cabbage",
+        "mustard"
+      ],
+      "avoid": [
+        "beans-bush",
+        "peas"
+      ],
+      "comments": "Same companion traits as all alliums said to prevent apple scab after 3 years planting at base of apple trees",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "cilantro-coriander",
+      "names": {
+        "en": "Cilantro / Coriander",
+        "de": "Cilantro / Coriander",
+        "fr": "Cilantro / Coriander",
+        "la": "Coriandrum sativum"
+      },
+      "synonyms": [],
+      "helps": [
+        "anise",
+        "spinach",
+        "lettuce",
+        "tomatoes"
+      ],
+      "avoid": [],
+      "comments": "Attracts hoverflies which may in turn reduce pest populations in cabbages.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "dill",
+      "names": {
+        "en": "Dill",
+        "de": "Dill (Pflanze)",
+        "fr": "Aneth",
+        "la": "Anethum graveolens"
+      },
+      "synonyms": [],
+      "helps": [
+        "brassicas",
+        "cabbage",
+        "corn-maize",
+        "fennel",
+        "lettuce"
+      ],
+      "avoid": [
+        "carrots"
+      ],
+      "comments": "One of the few plants said to grow with fennel: See fennel for info about intercropping.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "fennel",
+      "names": {
+        "de": "Fenchel",
+        "fr": "Fenouil"
+      },
+      "synonyms": [],
+      "helps": [
+        "dill"
+      ],
+      "avoid": [],
+      "comments": "Allelopathic — inhibits many vegetables. Keep isolated.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "flax",
+      "names": {
+        "en": "Flax",
+        "de": "Gemeiner Lein",
+        "fr": "Lin cultivé",
+        "la": "Linum usitatissimum"
+      },
+      "synonyms": [],
+      "helps": [
+        "carrots"
+      ],
+      "avoid": [],
+      "comments": "Flax contains tannin and linseed oils which may offend the Colorado potato bug",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "garlic",
+      "names": {
+        "en": "Garlic",
+        "de": "Knoblauch",
+        "fr": "Ail cultivé",
+        "la": "Allium sativum"
+      },
+      "synonyms": [],
+      "helps": [
+        "brassicas",
+        "beets",
+        "tomatoes",
+        "lettuce",
+        "celery",
+        "peas"
+      ],
+      "avoid": [
+        "grapes"
+      ],
+      "comments": "See Alliums entry for more info. Peas and garlic when planted closely together suppress each other's growth; however the profit over land area used is higher. Tarragon makes garlic grow rapidly.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "hyssop",
+      "names": {
+        "en": "Hyssop",
+        "de": "Hyssop",
+        "fr": "Hyssop",
+        "la": "Hyssopus officinalis"
+      },
+      "synonyms": [],
+      "helps": [
+        "brassicas",
+        "cabbage",
+        "grapes"
+      ],
+      "avoid": [],
+      "comments": "Stimulates growth of grapes.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "lavender",
+      "names": {
+        "en": "Lavender",
+        "de": "Lavender",
+        "fr": "Lavender",
+        "la": "Lavandula angustifolia, L. dentata, L. stoechas"
+      },
+      "synonyms": [],
+      "helps": [
+        "chamomile",
+        "lettuce",
+        "brassicas",
+        "tomatoes",
+        "oregano",
+        "thyme",
+        "sage",
+        "rosemary",
+        "basil",
+        "lemon-grass",
+        "squash"
+      ],
+      "avoid": [],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "lemon-grass",
+      "names": {
+        "en": "Lemon grass",
+        "de": "Lemon grass",
+        "fr": "Lemon grass",
+        "la": "Cymbopogon citratus"
+      },
+      "synonyms": [],
+      "helps": [
+        "eggplant-or-aubergine"
+      ],
+      "avoid": [],
+      "comments": "Reduces cutworms in eggplant in laboratory trials",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "lovage",
+      "names": {
+        "en": "Lovage",
+        "de": "Lovage",
+        "fr": "Lovage",
+        "la": "Levisticum officinale"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush"
+      ],
+      "avoid": [],
+      "comments": "Is thought to improve the health of almost all plants, like borage and geraniums, is considered a \"magic bullet\" of companion planting",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "oregano",
+      "names": {
+        "en": "Oregano",
+        "de": "Oregano",
+        "fr": "Oregano",
+        "la": "Origanum vulgare"
+      },
+      "synonyms": [],
+      "helps": [
+        "grapes",
+        "tomatoes",
+        "peppers",
+        "pumpkin"
+      ],
+      "avoid": [],
+      "comments": "Provides ground cover and much-needed humidity for pepper plants if allowed to spread among them. Because it attracts syrphidae, it reduces aphids through predation.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "parsley",
+      "names": {
+        "en": "Parsley",
+        "de": "Parsley",
+        "fr": "Parsley",
+        "la": "Petroselinum crispum"
+      },
+      "synonyms": [],
+      "helps": [
+        "asparagus",
+        "tomatoes"
+      ],
+      "avoid": [
+        "alliums",
+        "lettuce"
+      ],
+      "comments": "Sacrificially attracts insects that feed on tomatoes",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "peppermint",
+      "names": {
+        "en": "Peppermint",
+        "de": "Peppermint",
+        "fr": "Peppermint",
+        "la": "Mentha piperita"
+      },
+      "synonyms": [],
+      "helps": [
+        "alliums",
+        "brassicas",
+        "cabbage",
+        "peas",
+        "tomatoes"
+      ],
+      "avoid": [],
+      "comments": "Repels cabbage flies, has same general companion properties as other mints",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "rosemary",
+      "names": {
+        "en": "Rosemary",
+        "de": "Rosemary",
+        "fr": "Rosemary",
+        "la": "Rosmarinus officinalis"
+      },
+      "synonyms": [],
+      "helps": [
+        "cabbage",
+        "beans-bush",
+        "brassicas",
+        "carrots",
+        "thyme"
+      ],
+      "avoid": [],
+      "comments": "Deters cabbage flies, repels many bean parasites",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "sage",
+      "names": {
+        "en": "Sage",
+        "de": "Sage",
+        "fr": "Sage",
+        "la": "Salvia officinalis"
+      },
+      "synonyms": [],
+      "helps": [
+        "brassicas",
+        "rosemary",
+        "cabbage",
+        "beans-bush",
+        "brussels-sprouts",
+        "carrots",
+        "tomatoes"
+      ],
+      "avoid": [],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "southernwood",
+      "names": {
+        "en": "Southernwood",
+        "de": "Southernwood",
+        "fr": "Southernwood",
+        "la": "Artemisia abrotanum"
+      },
+      "synonyms": [],
+      "helps": [
+        "brassicas",
+        "fruit-trees"
+      ],
+      "avoid": [],
+      "comments": "Controls cabbage moths and malaria mosquitoes.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "spearmint",
+      "names": {
+        "en": "Spearmint",
+        "de": "Spearmint",
+        "fr": "Spearmint",
+        "la": "Mentha spicata"
+      },
+      "synonyms": [],
+      "helps": [
+        "alliums",
+        "brassicas",
+        "cabbage",
+        "peas",
+        "tomatoes"
+      ],
+      "avoid": [],
+      "comments": "Controls ants and aphids.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "stinging-nettle",
+      "names": {
+        "en": "Stinging nettle",
+        "de": "Stinging nettle",
+        "fr": "Stinging nettle",
+        "la": "Urtica dioica"
+      },
+      "synonyms": [],
+      "helps": [
+        "peppermint",
+        "broccoli",
+        "tomatoes",
+        "sage"
+      ],
+      "avoid": [],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "summer-savoury",
+      "names": {
+        "en": "Summer savoury",
+        "de": "Summer savoury",
+        "fr": "Summer savoury",
+        "la": "Satureja hortensis"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "melon"
+      ],
+      "avoid": [],
+      "comments": "Also delays germination of certain foul herbs",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "tarragon",
+      "names": {
+        "en": "Tarragon",
+        "de": "Tarragon",
+        "fr": "Tarragon",
+        "la": "Artemisia dracunculus"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [],
+      "comments": "Its scent is disliked by most pests, and this plant is also thought to have Nurse Plant properties, enhancing the growth and flavor of crops grown with it.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "thyme",
+      "names": {
+        "en": "Thyme",
+        "de": "Thyme",
+        "fr": "Thyme",
+        "la": "Thymus vulgaris"
+      },
+      "synonyms": [],
+      "helps": [
+        "brassicas",
+        "cabbage",
+        "potato",
+        "tomatoes",
+        "brussels-sprouts"
+      ],
+      "avoid": [],
+      "comments": "Because it attracts Syrphidae, it reduces aphids through predation.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "wormwood",
+      "names": {
+        "en": "Wormwood",
+        "de": "Wormwood",
+        "fr": "Wormwood",
+        "la": "Artemisia absinthium"
+      },
+      "synonyms": [],
+      "helps": [
+        "brassicas",
+        "carrots"
+      ],
+      "avoid": [],
+      "comments": "Wormwood should be used with caution around most vegetables since it contains toxins.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "yarrow",
+      "names": {
+        "en": "Yarrow",
+        "de": "Yarrow",
+        "fr": "Yarrow",
+        "la": "Achillea millefolium"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [],
+      "comments": "May increase the essential oil production of some herbs. Also improves soil quality, use the leaves to enrich compost, or as mulch. Because it attracts syrphidae it reduces aphids through predation.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "alyssum",
+      "names": {
+        "en": "Alyssum",
+        "de": "Alyssum",
+        "fr": "Alyssum",
+        "la": "Lobularia maritima"
+      },
+      "synonyms": [],
+      "helps": [
+        "lettuce"
+      ],
+      "avoid": [],
+      "comments": "Because they attract syrphidae they help reduce aphids through predation.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "baby-s-breath",
+      "names": {
+        "en": "Baby's breath",
+        "de": "Baby's breath",
+        "fr": "Baby's breath",
+        "la": "Gypsophila paniculata"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [],
+      "comments": "Because they attract Syrphidae, they help reduce aphids through predation.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "bee-balm",
+      "names": {
+        "en": "Bee balm",
+        "de": "Bee balm",
+        "fr": "Bee balm",
+        "la": "Monarda spp."
+      },
+      "synonyms": [],
+      "helps": [
+        "tomatoes"
+      ],
+      "avoid": [],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "californian-poppy",
+      "names": {
+        "en": "Californian poppy",
+        "de": "Californian poppy",
+        "fr": "Californian poppy",
+        "la": "Eschscholzia californica"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [],
+      "comments": "Because they attract Syrphidae, they help reduce aphids through predation.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "dianthus",
+      "names": {
+        "en": "Dianthus",
+        "de": "Dianthus",
+        "fr": "Dianthus",
+        "la": "Dianthus caryophyllus"
+      },
+      "synonyms": [],
+      "helps": [
+        "lavender"
+      ],
+      "avoid": [],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "geraniums",
+      "names": {
+        "en": "Geraniums",
+        "de": "Geraniums",
+        "fr": "Geraniums",
+        "la": "Pelargonium spp."
+      },
+      "synonyms": [],
+      "helps": [
+        "corn-maize",
+        "peppers",
+        "grapes"
+      ],
+      "avoid": [
+        "tomatoes"
+      ],
+      "comments": "A trap crop, attracting pests away from roses and grape vines, distracts beet leafhoppers, carrier of the curly top virus, keep away from solanaceous plants like eggplant, and tobacco",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "larkspur",
+      "names": {
+        "en": "Larkspur",
+        "de": "Larkspur",
+        "fr": "Larkspur",
+        "la": "Delphinium spp."
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "cabbage"
+      ],
+      "avoid": [],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "lupin",
+      "names": {
+        "en": "Lupin",
+        "de": "Lupin",
+        "fr": "Lupin",
+        "la": "Lupinus"
+      },
+      "synonyms": [],
+      "helps": [
+        "cucurbits",
+        "brassicas",
+        "lettuce",
+        "rosemary",
+        "dill",
+        "rose"
+      ],
+      "avoid": [
+        "tomatoes"
+      ],
+      "comments": "This wildflower is a legume, hosting bacteria that fixes nitrogen in the soil, fertilizing it for neighboring plants. Same with marigold, planting nearby roses causes them to grow vigorously.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "marigold",
+      "names": {
+        "de": "Ringelblume",
+        "fr": "Souci"
+      },
+      "synonyms": [],
+      "helps": [
+        "cucurbits",
+        "squash",
+        "alliums",
+        "brassicas"
+      ],
+      "avoid": [],
+      "comments": "Repels nematodes and whitefly. Excellent border plant.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "nasturtium",
+      "names": {
+        "en": "Nasturtium",
+        "de": "Nasturtium",
+        "fr": "Nasturtium",
+        "la": "Tropaeolum majus"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "squash",
+        "tomatoes",
+        "fruit-trees",
+        "brassicas",
+        "radish"
+      ],
+      "avoid": [
+        "cauliflower"
+      ],
+      "comments": "Trap crops for aphids, is among the best at attracting predatory insects, deters many pests of cucurbits",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "pansy",
+      "names": {
+        "en": "Pansy",
+        "de": "Pansy",
+        "fr": "Pansy",
+        "la": "Viola x wittrockiana"
+      },
+      "synonyms": [],
+      "helps": [
+        "alliums"
+      ],
+      "avoid": [],
+      "comments": "A good and nice-smelling flower that really attracts ants. It is like the viola plant, but has two or three colors in flowers. Helps alliums and onions, which repels the white butterfly.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "petunia",
+      "names": {
+        "en": "Petunia",
+        "de": "Petunia",
+        "fr": "Petunia",
+        "la": "Petunia x hybrida"
+      },
+      "synonyms": [],
+      "helps": [
+        "cucurbits",
+        "asparagus"
+      ],
+      "avoid": [],
+      "comments": "Is a trap crop almost identical to geraniums in function",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "phacelia",
+      "names": {
+        "en": "Phacelia",
+        "de": "Phacelia",
+        "fr": "Phacelia",
+        "la": "Phacelia tanacetifolia"
+      },
+      "synonyms": [],
+      "helps": [
+        "tomatoes",
+        "rose"
+      ],
+      "avoid": [],
+      "comments": "This plant attracts hoverflies and is good around plants which are prone to aphids.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "rose",
+      "names": {
+        "en": "Rose",
+        "de": "Rose",
+        "fr": "Rose",
+        "la": "Rosa spp."
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [],
+      "comments": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "sunflower",
+      "names": {
+        "en": "Sunflower",
+        "de": "Sunflower",
+        "fr": "Sunflower",
+        "la": "Helianthus annuus"
+      },
+      "synonyms": [],
+      "helps": [
+        "peppers",
+        "corn-maize",
+        "cucumber",
+        "tomatoes",
+        "swan-plant"
+      ],
+      "avoid": [
+        "beans-pole"
+      ],
+      "comments": "Was grown as a companion for corn before modern Europeans arrived in the Americas, supposedly increases their production, ants herd aphids onto sunflowers, keeping them off neighboring plants. Works as a trap plant for thrips keeping them off of bell peppers. Planting near swan plants help sunflowers grow rapidly.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "swan-plant",
+      "names": {
+        "en": "Swan plant",
+        "de": "Swan plant",
+        "fr": "Swan plant",
+        "la": "Gomphocarpus physocarpus, Asclepias physocarpa, milkweed"
+      },
+      "synonyms": [],
+      "helps": [
+        "sunflower"
+      ],
+      "avoid": [],
+      "comments": "Attracts the monarch butterfly during spring and summer. Basil repels pests that attracts by the swan plant like aphids.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "sweet-pea",
+      "names": {
+        "en": "Sweet pea",
+        "de": "Sweet pea",
+        "fr": "Sweet pea",
+        "la": "Lathyrus odoratus"
+      },
+      "synonyms": [],
+      "helps": [
+        "sweet-potato",
+        "lavender"
+      ],
+      "avoid": [],
+      "comments": "An annual climbing plant, which is like the edible pea. Makes a good decoration in your garden or fence.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "tansy",
+      "names": {
+        "en": "Tansy",
+        "de": "Tansy",
+        "fr": "Tansy",
+        "la": "Tanacetum vulgare"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "cucurbits",
+        "squash",
+        "corn-maize",
+        "fruit-trees"
+      ],
+      "avoid": [],
+      "comments": "Toxic to people and many animals; do not plant it where livestock browse. Is reputed to repel herbivorous insects.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "zinnia",
+      "names": {
+        "en": "Zinnia",
+        "de": "Zinnia",
+        "fr": "Zinnia",
+        "la": "Zinnia"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "tomatoes",
+        "peppers"
+      ],
+      "avoid": [],
+      "comments": "Attracts hummingbirds that eat whiteflies, attracts pollinators",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "alfalfa",
+      "names": {
+        "en": "Alfalfa",
+        "de": "Alfalfa",
+        "fr": "Alfalfa",
+        "la": "Medicago sativa"
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [
+        "tomatoes",
+        "beans-fava"
+      ],
+      "comments": "Used by farmers to reduce cotton pests, a good crop to improve soil; fixes nitrogen. Alfalfa has some allelopathic effects to tomato seedlings.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "peanut",
+      "names": {
+        "en": "Peanut",
+        "de": "Peanut",
+        "fr": "Peanut",
+        "la": "Arachis hypogaea"
+      },
+      "synonyms": [],
+      "helps": [
+        "beans-bush",
+        "corn-maize",
+        "cucumber",
+        "eggplant-or-aubergine",
+        "lettuce",
+        "marigold"
+      ],
+      "avoid": [],
+      "comments": "Peanuts encourage growth of corn and squash",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    },
+    {
+      "id": "walnut-tree",
+      "names": {
+        "en": "Walnut tree",
+        "de": "Walnut tree",
+        "fr": "Walnut tree",
+        "la": "Juglans spp."
+      },
+      "synonyms": [],
+      "helps": [],
+      "avoid": [
+        "apple"
+      ],
+      "comments": "Black walnut is harmful to the growth of all nightshade plants, including Datura or Jimson weed, eggplant, mandrake, deadly nightshade or belladonna, capsicum , potato, tomato, and petunia.",
+      "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
+    }
+  ]
+}
