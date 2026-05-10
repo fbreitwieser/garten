@@ -2,14 +2,24 @@ import type { Plant, ParsedEntry } from './types';
 import { normalize, levenshtein } from './match';
 
 function getAllNames(plant: Plant): string[] {
-  const names: string[] = [
-    normalize(plant.names.en),
-    normalize(plant.names.de),
-    normalize(plant.names.fr),
-    normalize(plant.names.la),
-    ...(plant.synonyms ?? []).map(normalize),
-  ];
-  return names.filter(Boolean);
+  const raw = [
+    plant.names.en,
+    plant.names.de,
+    plant.names.fr,
+    plant.names.la,
+    ...(plant.synonyms ?? []),
+  ].filter(Boolean);
+
+  const names: string[] = [];
+  for (const name of raw) {
+    names.push(normalize(name));
+    // Also index individual parts of compound names like "Paprika / Chili"
+    const parts = name.split(' / ');
+    if (parts.length > 1) {
+      for (const part of parts) names.push(normalize(part));
+    }
+  }
+  return [...new Set(names)].filter(Boolean);
 }
 
 function minDistToPlant(query: string, plant: Plant): number {

@@ -1,45 +1,217 @@
 {
-  "_comment": "Manual overrides per plant id. Merged on top of enriched data.",
+  "_comment": "Manual overrides per plant id. Merged on top of enriched data by merge.ts. 'helps' and 'avoid' arrays are UNION-merged (only new additions needed). 'comments' as an object adds de/fr translations on top of the base English; as a string it replaces the base comment entirely.",
 
-  "alliums":               { "names": { "de": "Lauchgewächse",             "fr": "Alliums" } },
+  "alliums": {
+    "names": { "de": "Lauchgewächse", "fr": "Alliums" },
+    "comments": {
+      "de": "Lauchgewächse bilden eine Gattung, zu der Zwiebeln, Knoblauch, Porree und Schnittlauch gehören.",
+      "fr": "Les alliums forment un genre qui comprend les oignons, l'ail, le poireau et la ciboulette."
+    }
+  },
+
   "alfalfa":               { "names": { "de": "Luzerne",                    "fr": "Luzerne" } },
   "alyssum":               { "names": { "de": "Steinkraut",                 "fr": "Alysse" } },
-  "anise":                 { "names": { "de": "Anis",                       "fr": "Anis" } },
-  "apple":                 { "names": { "de": "Apfelbaum",                  "fr": "Pommier" } },
-  "apricot":               { "names": { "de": "Aprikose",                   "fr": "Abricotier" } },
+
+  "anise": {
+    "names": { "de": "Anis", "fr": "Anis" },
+    "comments": {
+      "de": "Nicht mit dem Sternanis verwechseln – das ist eine völlig andere Art.",
+      "fr": "À ne pas confondre avec la badiane (anis étoilé), une espèce totalement différente."
+    }
+  },
+
+  "apple": {
+    "names": { "de": "Apfelbaum", "fr": "Pommier" },
+    "comments": {
+      "de": "Studentenblumen hemmen den Apfelwickler, aber auch dessen natürliche Feinde – der Schaden an den Früchten nimmt daher nicht ab.",
+      "fr": "Le souci d'Inde inhibe le carpocapse mais aussi ses ennemis naturels, sans réduire les dégâts sur les pommes."
+    }
+  },
+
+  "apricot": {
+    "names": { "de": "Aprikose", "fr": "Abricotier" },
+    "comments": {
+      "de": "Ein Pilz, der Paprika befällt, kann auf Aprikosenbäume übergreifen und diese schwer schädigen.",
+      "fr": "Un champignon fréquent sur les poivrons peut infecter les abricotiers et causer de graves dommages."
+    }
+  },
+
   "asparagus":             { "names": { "de": "Spargel",                    "fr": "Asperge" } },
   "baby-s-breath":         { "names": { "de": "Schleierkraut",              "fr": "Gypsophile" } },
-  "basil":                 { "names": { "de": "Basilikum",                  "fr": "Basilic" } },
-  "beans-bush":            { "names": { "de": "Buschbohne",                 "fr": "Haricot nain" } },
+
+  "basil": {
+    "names": { "de": "Basilikum", "fr": "Basilic" },
+    "comments": {
+      "de": "Soll Tomaten besser schmecken lassen. Kamille und Anis steigern den Gehalt an ätherischen Ölen bei Basilikum und anderen Kräutern.",
+      "fr": "On dit qu'il améliore le goût des tomates. La camomille et l'anis augmentent la teneur en huiles essentielles du basilic et d'autres herbes."
+    }
+  },
+
+  "beans-bush": {
+    "names": { "de": "Buschbohne", "fr": "Haricot nain" },
+    "avoid": ["onion"],
+    "comments": {
+      "de": "Salat, Kartoffel, Tomate, andere Hülsenfrüchte, Kreuzblütler oder Kürbisgewächse erhöhen den Sclerotinia-Befall im Boden und sollten vor und nach Buschbohnen gemieden werden. Zwiebeln hemmen das Wachstum der Buschbohne (Mischkultur).",
+      "fr": "La laitue, la pomme de terre, la tomate, d'autres légumineuses, les crucifères ou les cucurbitacées favorisent la sclerotiniose dans le sol et sont à éviter avant et après les haricots nains. Les oignons freinent leur croissance (Mischkultur)."
+    }
+  },
+
   "beans-fava":            { "names": { "de": "Saubohne / Favabohne",       "fr": "Fève" } },
-  "beans-pole":            { "names": { "de": "Stangenbohne",               "fr": "Haricot à rames" } },
+
+  "beans-pole": {
+    "names": { "de": "Stangenbohne", "fr": "Haricot à rames" },
+    "comments": {
+      "de": "Der Maisstiel dient den Stangenbohnen als Kletterstütze; die Bohnen geben dem Mais Stickstoff zurück. Stangenbohnen und Mais sind traditionelle Drei-Schwestern-Pflanzen.",
+      "fr": "La tige du maïs sert de support aux haricots, qui enrichissent en retour le sol en azote. Haricots et maïs font partie des traditionnelles « Trois Sœurs »."
+    }
+  },
+
   "bee-balm":              { "names": { "de": "Monarde",                    "fr": "Monarde" } },
-  "beets":                 { "names": { "de": "Rote Bete",                  "fr": "Betterave" } },
-  "blueberries":           { "names": { "de": "Heidelbeere",                "fr": "Myrtille" } },
-  "borage":                { "names": { "de": "Borretsch",                  "fr": "Bourrache" } },
-  "brassicas":             { "names": { "de": "Kreuzblütler / Kohlgewächse","fr": "Brassicacées" } },
-  "broccoli":              { "names": { "de": "Brokkoli",                   "fr": "Brocoli" } },
+
+  "beets": {
+    "names": { "de": "Rote Bete", "fr": "Betterave" },
+    "comments": {
+      "de": "Rote-Bete-Blätter sind wertvoll für den Kompost – sie enthalten bis zu 25 % Magnesium. Stangenbohnen hemmen das Wachstum der Roten Bete gegenseitig.",
+      "fr": "Les feuilles de betterave, riches en magnésium (jusqu'à 25 %), sont excellentes pour le compost. Les haricots à rames freinent mutuellement la croissance des betteraves."
+    }
+  },
+
+  "blueberries": {
+    "names": { "de": "Heidelbeere", "fr": "Myrtille" },
+    "comments": {
+      "de": "Kiefern und Eichen schaffen den sauren Boden, den Heidelbeeren benötigen. Erdbeeren und Brombeeren bieten gute Bodenbedeckung, Klee bindet Stickstoff, Schafgarbe und Lorbeer halten Schädlinge fern.",
+      "fr": "Les pins et les chênes créent le sol acide dont les myrtilles ont besoin. Les fraises offrent une bonne couverture du sol, le trèfle fixe l'azote, l'achillée et le laurier repoussent les nuisibles."
+    }
+  },
+
+  "borage": {
+    "names": { "de": "Borretsch", "fr": "Bourrache" },
+    "comments": {
+      "de": "Für ausgewachsenen Borretsch rund einen Quadratmeter einplanen. Er ist ein guter Begleiter für viele verschiedene Pflanzen.",
+      "fr": "Prévoir environ un mètre carré pour la plante adulte. La bourrache est un excellent compagnon pour une grande variété de plantes."
+    }
+  },
+
+  "brassicas": {
+    "names": { "de": "Kreuzblütler / Kohlgewächse", "fr": "Brassicacées" },
+    "comments": {
+      "de": "Kreuzblütler umfassen Brokkoli, Rosenkohl, Kohl, Blumenkohl, Chinakohl, Kohlrabi, Radieschen und Rüben. Thymian, Kapuzinerkresse und Zwiebeln zeigten gute Wirkung gegen Kohlraupe, Rüsselkäfer und Kohlmotte.",
+      "fr": "Les brassicacées comprennent brocoli, chou de Bruxelles, chou, chou-fleur, chou chinois, chou-rave, radis et navet. Le thym, la capucine et l'oignon montrent une bonne résistance contre les chenilles du chou, les charançons et la fausse teigne."
+    }
+  },
+
+  "broccoli": {
+    "names": { "de": "Brokkoli", "fr": "Brocoli" },
+    "comments": {
+      "de": "Brokkoli als Hauptkultur zusammen mit Salat war rentabler als jede Kultur allein. Rüben dienen als Fangpflanze für Schädlinge.",
+      "fr": "Le brocoli cultivé en association avec la laitue s'avère plus rentable que chaque culture séparément. Le navet sert de plante-piège contre les ravageurs."
+    }
+  },
+
   "brussels-sprouts":      { "names": { "de": "Rosenkohl",                  "fr": "Chou de Bruxelles" } },
-  "cabbage":               { "names": { "de": "Kohl",                       "fr": "Chou" } },
+
+  "cabbage": {
+    "names": { "de": "Kohl", "fr": "Chou" },
+    "comments": {
+      "de": "Wird Klee als Zwischenfrucht eingesetzt, sollte er erst nach dem Auspflanzen des Kohls gesät werden, um den Ertrag nicht zu beeinträchtigen. Kapuzinerkresse hält Kohlmotten fern.",
+      "fr": "Si le trèfle est utilisé comme culture intercalaire, le semer après le repiquage du chou pour préserver le rendement. Les capucines repoussent les papillons du chou."
+    }
+  },
+
   "californian-poppy":     { "names": { "de": "Kalifornischer Mohn",        "fr": "Pavot de Californie" } },
   "caraway":               { "names": { "de": "Kümmel",                     "fr": "Carvi" } },
-  "carrots":               { "names": { "de": "Karotte / Möhre",            "fr": "Carotte" } },
+
+  "carrots": {
+    "names": { "de": "Karotte / Möhre", "fr": "Carotte" },
+    "comments": {
+      "de": "Tomaten wachsen neben Karotten besser, können aber deren Wachstum hemmen. Hülsenfrüchte liefern den Karotten nötigen Stickstoff. Aromatische Begleitpflanzen vertreiben die Möhrenfliege. Lauchgewächse verwirren Zwiebel- und Möhrenfliegen. Damit Karotten Nützlinge anziehen, müssen sie blühen dürfen – alternativ wirkt Wilde Möhre (Daucus carota) ebenso.",
+      "fr": "Les tomates poussent mieux à côté des carottes, mais peuvent freiner leur croissance. Les légumineuses apportent l'azote nécessaire. Les plantes aromatiques repoussent la mouche de la carotte. Les alliacées brouillent les pistes pour les mouches de l'oignon et de la carotte. Pour que les carottes attirent les insectes utiles, laisser monter en graine – sinon, la carotte sauvage (Daucus carota) produit le même effet."
+    }
+  },
+
   "catnip":                { "names": { "de": "Katzenminze",                "fr": "Herbe aux chats" } },
   "cauliflower":           { "names": { "de": "Blumenkohl",                 "fr": "Chou-fleur" } },
-  "celery":                { "names": { "de": "Sellerie",                   "fr": "Céleri" } },
-  "chamomile":             { "names": { "de": "Kamille",                    "fr": "Camomille" } },
+
+  "celery": {
+    "names": { "de": "Sellerie", "fr": "Céleri" },
+    "comments": {
+      "de": "Asterblüten können die Aster-Vergilbungskrankheit auf Sellerie übertragen.",
+      "fr": "Les fleurs d'aster peuvent transmettre la jaunisse de l'aster au céleri."
+    }
+  },
+
+  "chamomile": {
+    "names": { "de": "Kamille", "fr": "Camomille" },
+    "comments": {
+      "de": "In der Nähe von Kräutern angebaut fördert Kamille deren Produktion ätherischer Öle.",
+      "fr": "Cultivée près des herbes aromatiques, la camomille stimule leur production d'huiles essentielles."
+    }
+  },
+
   "chard":                 { "names": { "de": "Mangold",                    "fr": "Bette / Blette" } },
-  "chervil":               { "names": { "de": "Kerbel",                     "fr": "Cerfeuil" } },
-  "chives":                { "names": { "de": "Schnittlauch",               "fr": "Ciboulette" } },
+
+  "chervil": {
+    "names": { "de": "Kerbel", "fr": "Cerfeuil" },
+    "comments": {
+      "de": "Kerbel liebt Schatten und gedeiht gut neben schattentoleranten Nutzpflanzen. Radieschen in seiner Nähe schmecken würziger.",
+      "fr": "Le cerfeuil aime l'ombre et pousse bien avec les plantes comestibles à l'ombre tolérée. Les radis cultivés près de lui ont un goût plus relevé."
+    }
+  },
+
+  "chives": {
+    "names": { "de": "Schnittlauch", "fr": "Ciboulette" },
+    "comments": {
+      "de": "Schnittlauch hat dieselben Begleiteigenschaften wie alle Lauchgewächse. Drei Jahre am Fuß von Apfelbäumen gepflanzt, soll er Schorf verhindern.",
+      "fr": "La ciboulette partage les propriétés compagnes de tous les alliacés. Plantée au pied des pommiers pendant 3 ans, elle serait efficace contre la tavelure."
+    }
+  },
+
   "cilantro-coriander":    { "names": { "de": "Koriander",                  "fr": "Coriandre" } },
-  "corn-maize":            { "names": { "de": "Mais",                       "fr": "Maïs" } },
-  "cucumber":              { "names": { "de": "Gurke",                      "fr": "Concombre" } },
-  "cucurbits":             { "names": { "de": "Kürbisgewächse",             "fr": "Cucurbitacées" } },
+
+  "corn-maize": {
+    "names": { "de": "Mais", "fr": "Maïs" },
+    "comments": {
+      "de": "Mais dient Bohnen als Rankhilfe und wird durch Kürbisgewächse vor Schädlingen und Austrocknung geschützt – das klassische Drei-Schwestern-Prinzip.",
+      "fr": "Le maïs sert de tuteur aux haricots et est protégé par les cucurbitacées contre les ravageurs et la sécheresse – technique des « Trois Sœurs »."
+    }
+  },
+
+  "cucumber": {
+    "names": { "de": "Gurke", "fr": "Concombre" },
+    "comments": {
+      "de": "2–3 Radieschen zwischen die Gurken säen, um Gurkenkäfer zu vertreiben. Eine Studie zeigte 75 % weniger Gurkenkäfer beim gleichzeitigen Anbau mit Amarant. Spritzbrühen aus Salat, Spargel und Sellerie reduzierten Weiße Fliegen.",
+      "fr": "Semer 2–3 radis parmi les concombres pour repousser les chrysomèles. Une étude a montré 75 % de réduction en semant simultanément de l'amarante. Des pulvérisations à base de laitue, asperge et céleri réduisent les aleurodes."
+    }
+  },
+
+  "cucurbits": {
+    "names": { "de": "Kürbisgewächse", "fr": "Cucurbitacées" },
+    "comments": {
+      "de": "Kürbisgewächse sind eine Pflanzenfamilie, zu der Melonen, Gurken, Kürbisse, Zucchini und Flaschenkürbisse gehören.",
+      "fr": "Les cucurbitacées sont une famille de plantes qui comprend les melons, les concombres, les courges, les citrouilles et les courgettes."
+    }
+  },
+
   "dianthus":              { "names": { "de": "Nelke",                      "fr": "Œillet" } },
   "dill":                  { "names": { "de": "Dill",                       "fr": "Aneth" } },
-  "eggplant-or-aubergine": { "names": { "de": "Aubergine",                  "fr": "Aubergine" } },
-  "fennel":                { "names": { "de": "Fenchel",                    "fr": "Fenouil" },
-                             "comments": "Allelopathic — inhibits many vegetables. Keep isolated." },
+
+  "eggplant-or-aubergine": {
+    "names": { "de": "Aubergine", "fr": "Aubergine" },
+    "comments": {
+      "de": "Ringelblumen halten Nematoden fern.",
+      "fr": "Les soucis repoussent les nématodes."
+    }
+  },
+
+  "fennel": {
+    "names": { "de": "Fenchel", "fr": "Fenouil" },
+    "comments": {
+      "en": "Allelopathic — inhibits many vegetables. Keep isolated.",
+      "de": "Allelopathisch – hemmt viele Gemüsepflanzen durch Wurzelausscheidungen. Isoliert anpflanzen.",
+      "fr": "Allélopathique – inhibe de nombreux légumes par ses sécrétions racinaires. À planter à l'écart."
+    }
+  },
+
   "flax":                  { "names": { "de": "Flachs / Lein",              "fr": "Lin" } },
   "fruit-trees":           { "names": { "de": "Obstbäume",                  "fr": "Arbres fruitiers" } },
   "garlic":                { "names": { "de": "Knoblauch",                  "fr": "Ail" } },
@@ -50,54 +222,195 @@
   "larkspur":              { "names": { "de": "Rittersporn",                "fr": "Pied-d'alouette" } },
   "lavender":              { "names": { "de": "Lavendel",                   "fr": "Lavande" } },
   "leek":                  { "names": { "de": "Porree / Lauch",             "fr": "Poireau" } },
-  "legumes":               { "names": { "de": "Hülsenfrüchte",              "fr": "Légumineuses" } },
+
+  "legumes": {
+    "names": { "de": "Hülsenfrüchte", "fr": "Légumineuses" },
+    "comments": {
+      "de": "Hülsenfrüchte beherbergen stickstofffixierende Bakterien – für viele Pflanzen ein natürlicher Dünger, aber zu reichhaltig für manche. Rosmarin- und Pfefferminzextrakte werden als Bio-Spritzbrühen für Bohnen verwendet. Bohnenkraut und Kartoffeln halten Bohnenkäfer fern.",
+      "fr": "Les légumineuses hébergent des bactéries fixatrices d'azote – un engrais naturel pour beaucoup de plantes, mais trop riche pour certaines. Des extraits de romarin et de menthe poivrée sont utilisés en pulvérisation bio pour les haricots. La sarriette et la pomme de terre repoussent les bruches."
+    }
+  },
+
   "lemon-grass":           { "names": { "de": "Zitronengras",               "fr": "Citronnelle" } },
-  "lettuce":               { "names": { "de": "Salat / Kopfsalat",          "fr": "Laitue" } },
+
+  "lettuce": {
+    "names": { "de": "Salat / Kopfsalat", "fr": "Laitue" },
+    "comments": {
+      "de": "Brokkoli zusammen mit Salat angebaut war nachweislich rentabler als jede Kultur allein.",
+      "fr": "Le brocoli cultivé en association avec la laitue s'avère plus rentable que chaque culture séparément."
+    }
+  },
+
   "lovage":                { "names": { "de": "Liebstöckel",                "fr": "Livèche" } },
   "lupin":                 { "names": { "de": "Lupine",                     "fr": "Lupin" } },
-  "marigold":              { "names": { "de": "Ringelblume",                "fr": "Souci" },
-                             "comments": "Repels nematodes and whitefly. Excellent border plant." },
+
+  "marigold": {
+    "names": { "de": "Ringelblume", "fr": "Souci" },
+    "comments": {
+      "en": "Repels nematodes and whitefly. Excellent border plant.",
+      "de": "Vertreibt Nematoden und Weiße Fliege durch Wurzelausscheidungen. Ausgezeichnete Randpflanze für das Gemüsebeet.",
+      "fr": "Repousse les nématodes et les aleurodes grâce à ses sécrétions racinaires. Excellente plante de bordure pour le potager."
+    }
+  },
+
   "melon":                 { "names": { "de": "Melone",                     "fr": "Melon" } },
   "mustard":               { "names": { "de": "Senf",                       "fr": "Moutarde" } },
   "nasturtium":            { "names": { "de": "Kapuzinerkresse",            "fr": "Capucine" } },
-  "nightshades":           { "names": { "de": "Nachtschattengewächse",      "fr": "Solanacées" } },
-  "okra":                  { "names": { "de": "Okra",                       "fr": "Gombo" } },
+
+  "nightshades": {
+    "names": { "de": "Nachtschattengewächse", "fr": "Solanacées" },
+    "comments": {
+      "de": "Nachtschattengewächse sind eine Pflanzenfamilie, zu der Tomaten, Tabak, Chili, Kartoffeln und Auberginen gehören.",
+      "fr": "Les solanacées sont une famille de plantes qui comprend les tomates, le tabac, les piments, les pommes de terre et les aubergines."
+    }
+  },
+
+  "okra": {
+    "names": { "de": "Okra", "fr": "Gombo" },
+    "comments": {
+      "de": "Okra und Süßkartoffel fördern sich gegenseitig beim gleichzeitigen Anbau.",
+      "fr": "Le gombo et la patate douce se stimulent mutuellement lorsqu'ils sont plantés ensemble."
+    }
+  },
+
   "onion":                 { "names": { "de": "Zwiebel",                    "fr": "Oignon" } },
   "oregano":               { "names": { "de": "Oregano",                    "fr": "Origan" } },
   "pansy":                 { "names": { "de": "Stiefmütterchen",            "fr": "Pensée" } },
   "parsley":               { "names": { "de": "Petersilie",                 "fr": "Persil" } },
-  "parsnip":               { "names": { "de": "Pastinake",                  "fr": "Panais" } },
+
+  "parsnip": {
+    "names": { "de": "Pastinake", "fr": "Panais" },
+    "comments": {
+      "de": "Die Blüten der Pastinake – wenn man sie aussamen lässt – ziehen viele Nützlinge an, besonders wertvoll unter Obstbäumen, wo Schlupfwespen Apfelwickler und andere Motten bekämpfen.",
+      "fr": "Les fleurs de panais laissées à monter en graine attirent de nombreux insectes prédateurs, particulièrement utiles sous les arbres fruitiers où ils s'attaquent aux carpocapses et aux tordeuses."
+    }
+  },
+
   "passion-fruit":         { "names": { "de": "Passionsfrucht",             "fr": "Fruit de la passion" } },
   "peanut":                { "names": { "de": "Erdnuss",                    "fr": "Arachide" } },
   "pears":                 { "names": { "de": "Birne",                      "fr": "Poire" } },
-  "peas":                  { "names": { "de": "Erbse",                      "fr": "Pois" } },
+
+  "peas": {
+    "names": { "de": "Erbse", "fr": "Pois" },
+    "comments": {
+      "de": "Erbsen zusammen mit Rüben, Blumenkohl oder Knoblauch zeigten zwar gegenseitige Wachstumshemmung, erzielten aber einen höheren Flächenertrag.",
+      "fr": "Les pois cultivés avec des navets, du chou-fleur ou de l'ail montrent une suppression mutuelle de la croissance, mais un meilleur rendement à l'hectare."
+    }
+  },
+
   "peppermint":            { "names": { "de": "Pfefferminze",               "fr": "Menthe poivrée" } },
-  "peppers":               { "names": { "de": "Paprika / Chili",            "fr": "Poivron / Piment" } },
+
+  "peppers": {
+    "names": { "de": "Paprika / Chili", "fr": "Poivron / Piment" },
+    "comments": {
+      "de": "Paprika braucht hohe Luftfeuchtigkeit; dichte Begleitpflanzen wie Majoran oder Basilikum helfen. Neben Tomaten angebaut schützen sich beide gegenseitig vor Sonneneinstrahlung und erhöhen die Feuchtigkeit. Sonnenblumen in Blüte schützen Nützlinge und reduzieren Thripse.",
+      "fr": "Les poivrons aiment une forte humidité : des plantes à feuillage dense comme la marjolaine et le basilic y contribuent. Cultivés avec des tomates, ils se protègent mutuellement du soleil excessif. Les tournesols en fleurs abritent les insectes utiles et réduisent les thrips."
+    }
+  },
+
   "petunia":               { "names": { "de": "Petunie",                    "fr": "Pétunia" } },
   "phacelia":              { "names": { "de": "Phacelie / Bienenfreund",    "fr": "Phacélie" } },
-  "potato":                { "names": { "de": "Kartoffel",                  "fr": "Pomme de terre" } },
-  "pumpkin":               { "names": { "de": "Kürbis",                     "fr": "Citrouille / Potiron" } },
-  "radish":                { "names": { "de": "Radieschen / Rettich",       "fr": "Radis" } },
+
+  "potato": {
+    "names": { "de": "Kartoffel", "fr": "Pomme de terre" },
+    "comments": {
+      "de": "Meerrettich stärkt die Krankheitsresistenz der Kartoffel und hält den Kartoffelkäfer fern. Knoblauch wirkt besser als Fungizide gegen Kraut- und Knollenfäule. Erbsen reduzieren die Dichte des Kartoffelkäfers nachweislich.",
+      "fr": "Le raifort renforce la résistance aux maladies de la pomme de terre et repousse le doryphore. L'ail est plus efficace que les fongicides contre le mildiou. Les pois réduisent la densité du doryphore de la pomme de terre."
+    }
+  },
+
+  "pumpkin": {
+    "names": { "de": "Kürbis", "fr": "Citrouille / Potiron" },
+    "comments": {
+      "de": "Radieschen dienen als Fangpflanze gegen Erdflöhe. Kürbis ist Teil der Drei-Schwestern-Methode. Kapuzinerkresse hält Kürbisläuse fern.",
+      "fr": "Les radis servent de plante-piège contre les altises. La citrouille s'intègre dans la technique des Trois Sœurs. Les capucines repoussent les punaises des courges."
+    }
+  },
+
+  "radish": {
+    "names": { "de": "Radieschen / Rettich", "fr": "Radis" },
+    "comments": {
+      "de": "Radieschen dienen als Fangpflanze gegen Erdflöhe. Mit Salat zusammen angebaute Radieschen schmecken besser.",
+      "fr": "Les radis peuvent servir de plante-piège contre les altises. Les radis cultivés avec de la laitue ont meilleur goût."
+    }
+  },
+
   "rose":                  { "names": { "de": "Rose",                       "fr": "Rose" } },
   "rosemary":              { "names": { "de": "Rosmarin",                   "fr": "Romarin" } },
   "sage":                  { "names": { "de": "Salbei",                     "fr": "Sauge" } },
+
+  "soybean": {
+    "names": { "de": "Sojabohne", "fr": "Soja" },
+    "comments": {
+      "de": "Eine Mischung aus Mais, Mungbohne und Sonnenblume hat sich als wirksam gegen Blattläuse bei Soja erwiesen.",
+      "fr": "Un mélange de maïs, de haricot mungo et de tournesol s'est révélé efficace pour éliminer les pucerons des plants de soja."
+    }
+  },
+
   "southernwood":          { "names": { "de": "Eberraute",                  "fr": "Aurone" } },
-  "soybean":               { "names": { "de": "Sojabohne",                  "fr": "Soja" } },
   "spearmint":             { "names": { "de": "Grüne Minze / Spearmint",    "fr": "Menthe verte" } },
-  "spinach":               { "names": { "de": "Spinat",                     "fr": "Épinard" } },
-  "squash":                { "names": { "de": "Zucchini / Kürbis",          "fr": "Courge" } },
+
+  "spinach": {
+    "names": { "de": "Spinat", "fr": "Épinard" },
+    "comments": {
+      "de": "Erbsen und Bohnen spenden dem Spinat natürlichen Schatten und halten ihn dadurch länger erntereif.",
+      "fr": "Les pois et les haricots offrent une ombre naturelle aux épinards et retardent leur montée en graine."
+    }
+  },
+
+  "squash": {
+    "names": { "de": "Zucchini / Kürbis", "fr": "Courge" },
+    "comments": {
+      "de": "Radieschen als Fangpflanze gegen Erdflöhe. Kürbisgewächse eignen sich für die Drei-Schwestern-Methode. Ringelblumen und Kapuzinerkresse vertreiben Kürbisläuse; Ringelblumen halten auch Gurkenkäfer fern.",
+      "fr": "Les radis servent de plante-piège contre les altises. Les courges s'intègrent dans la technique des Trois Sœurs. Les soucis et les capucines repoussent les punaises des courges; les soucis repoussent aussi les chrysomèles du concombre."
+    }
+  },
+
   "stinging-nettle":       { "names": { "de": "Brennnessel",                "fr": "Ortie" } },
-  "strawberries":          { "names": { "de": "Erdbeere",                   "fr": "Fraise" } },
+
+  "strawberries": {
+    "names": { "de": "Erdbeere", "fr": "Fraise" },
+    "comments": {
+      "de": "Thymian neben Erdbeeren soll deren Ertrag steigern.",
+      "fr": "Le thym planté à côté des fraisiers favoriserait leur fructification."
+    }
+  },
+
   "summer-savoury":        { "names": { "de": "Bohnenkraut",                "fr": "Sarriette d'été" } },
-  "sunflower":             { "names": { "de": "Sonnenblume",                "fr": "Tournesol" } },
+  "sunflower":             { "names": { "de": "Sonnenblume",                 "fr": "Tournesol" } },
   "swan-plant":            { "names": { "de": "Schwanenpflanze",            "fr": "Plante à cygne" } },
   "sweet-pea":             { "names": { "de": "Duftwicke",                  "fr": "Pois de senteur" } },
-  "sweet-potato":          { "names": { "de": "Süßkartoffel",               "fr": "Patate douce" } },
+
+  "sweet-potato": {
+    "names": { "de": "Süßkartoffel", "fr": "Patate douce" },
+    "comments": {
+      "de": "Okra und Süßkartoffel fördern sich gegenseitig beim gleichzeitigen Anbau.",
+      "fr": "Le gombo et la patate douce se stimulent mutuellement lorsqu'ils sont plantés ensemble."
+    }
+  },
+
   "tansy":                 { "names": { "de": "Rainfarn",                   "fr": "Tanaisie" } },
   "tarragon":              { "names": { "de": "Estragon",                   "fr": "Estragon" } },
   "thyme":                 { "names": { "de": "Thymian",                    "fr": "Thym" } },
-  "tomatoes":              { "names": { "de": "Tomate",                     "fr": "Tomate" } },
-  "turnips-and-rutabagas": { "names": { "de": "Rübe / Kohlrübe",            "fr": "Navet / Rutabaga" } },
+
+  "tomatoes": {
+    "names": { "de": "Tomate", "fr": "Tomate" },
+    "synonyms": ["tomaten", "tomato", "love apple", "love apples"],
+    "avoid": ["radish"],
+    "comments": {
+      "de": "Walnüsse hemmen das Tomatenwachstum durch Juglone (negativ allelopathisch für alle Nachtschattengewächse). Dill zieht den Tomatenschwärmer an. Basilikum im Abstand von ca. 25 cm kann den Tomatenertrag um rund 20 % steigern. Gurken und Zucchini als lebende Mulchpflanzen helfen, Bodenfeuchtigkeit zu erhalten. Radieschen hemmen das Tomatenwachstum (Mischkultur).",
+      "fr": "Le noyer inhibe la croissance des tomates via la jugulone (allélopathie négative pour toutes les solanacées). L'aneth attire le sphinx de la tomate. Le basilic à environ 25 cm des tomates peut augmenter le rendement d'environ 20 %. Les concombres et courges en paillis vivant conservent l'humidité du sol. Les radis freinent la croissance des tomates (Mischkultur)."
+    }
+  },
+
+  "turnips-and-rutabagas": {
+    "names": { "de": "Rübe / Kohlrübe", "fr": "Navet / Rutabaga" },
+    "comments": {
+      "de": "Rüben wirken als Fangpflanze für Schädlinge des Brokkolis.",
+      "fr": "Les navets servent de plante-piège contre les ravageurs du brocoli."
+    }
+  },
+
   "walnut-tree":           { "names": { "de": "Walnussbaum",                "fr": "Noyer" } },
   "wormwood":              { "names": { "de": "Wermut",                     "fr": "Absinthe" } },
   "yarrow":                { "names": { "de": "Schafgarbe",                 "fr": "Achillée" } },

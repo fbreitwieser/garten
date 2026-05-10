@@ -18,6 +18,12 @@ interface EnrichedPlant {
   wikiTitle: string;
 }
 
+interface MultilingualComment {
+  en?: string;
+  de?: string;
+  fr?: string;
+}
+
 function makeId(name: string): string {
   return name
     .toLowerCase()
@@ -216,14 +222,49 @@ function main() {
       source: 'https://en.wikipedia.org/wiki/List_of_companion_plants',
     };
 
-    // Apply overrides — merge names field carefully so en/la are preserved
+    // Apply overrides — merge carefully so structural fields aren't simply clobbered
     const override = overrides[p.id];
     if (override) {
+      // Names: preserve en/la from base, let override supply de/fr corrections
       const mergedNames = override.names
         ? { ...base.names, ...override.names }
         : base.names;
-      Object.assign(base, override);
-      base.names = mergedNames;
+
+      // helps/avoid: union-merge so overrides only need to list new additions
+      const mergedHelps = override.helps
+        ? [...new Set([...base.helps, ...override.helps])]
+        : base.helps;
+      const mergedAvoid = override.avoid
+        ? [...new Set([...base.avoid, ...override.avoid])]
+        : base.avoid;
+
+      // Comments: if override supplies an object, merge de/fr on top of base en
+      let mergedComments: string | MultilingualComment = base.comments;
+      if (override.comments !== undefined) {
+        if (typeof override.comments === 'object' && override.comments !== null) {
+          const oc = override.comments as MultilingualComment;
+          mergedComments = {
+            en: oc.en ?? base.comments,
+            de: oc.de ?? '',
+            fr: oc.fr ?? '',
+          };
+        } else {
+          // Plain string override — wrap into object so app gets consistent shape
+          mergedComments = {
+            en: override.comments as string,
+            de: '',
+            fr: '',
+          };
+        }
+      }
+
+      // Apply remaining scalar overrides (synonyms, source, …)
+      const { names: _n, helps: _h, avoid: _a, comments: _c, ...rest } = override as any;
+      Object.assign(base, rest);
+      base.names    = mergedNames;
+      base.helps    = mergedHelps;
+      base.avoid    = mergedAvoid;
+      base.comments = mergedComments as string; // cast; actual type is string | object
     }
 
     return base;

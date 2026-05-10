@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "scrape": "npx tsx scripts/scrape-wikipedia.ts && npx tsx scripts/enrich-translations.ts && npx tsx scripts/merge.ts"
+    "scrape": "npx tsx scripts/scrape-wikipedia.ts && npx tsx scripts/enrich-translations.ts && npx tsx scripts/merge.ts",
+    "enrich-knowledge": "npx tsx scripts/enrich-knowledge.ts"
   },
   "dependencies": {
     "svelte": "^4.2.18"

@@ -66,7 +66,7 @@
     if (toLayout.length === 0) return;
 
     layoutResult = computeLayout(toLayout, bedCols, bedRows, plants);
-    explanationItems = buildExplanation(layoutResult, plants);
+    explanationItems = buildExplanation(layoutResult, plants, lang);
   }
 
   function regenerate() {

@@ -1,10 +1,16 @@
+export interface PlantComments {
+  en: string;
+  de?: string;
+  fr?: string;
+}
+
 export interface Plant {
   id: string;
   names: { en: string; de: string; fr: string; la: string };
   synonyms?: string[];
   helps: string[];
   avoid: string[];
-  comments?: string;
+  comments?: string | PlantComments;
   source?: string;
 }
 

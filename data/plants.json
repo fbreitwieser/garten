@@ -22,7 +22,11 @@
         "legumes",
         "peas"
       ],
-      "comments": "Allium is a genus of plants which includes onions and garlic.",
+      "comments": {
+        "en": "Allium is a genus of plants which includes onions and garlic.",
+        "de": "Lauchgewächse bilden eine Gattung, zu der Zwiebeln, Knoblauch, Porree und Schnittlauch gehören.",
+        "fr": "Les alliums forment un genre qui comprend les oignons, l'ail, le poireau et la ciboulette."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -62,9 +66,14 @@
       "avoid": [
         "soybean",
         "legumes",
-        "alfalfa"
+        "alfalfa",
+        "onion"
       ],
-      "comments": "\"Lettuce, potato, tomato, other legumes, crucifers, or cucurbits increase sclerotinia\" in the soil and should be avoided before and after snap beans. See the entry for \"Legumes\" for more info",
+      "comments": {
+        "en": "\"Lettuce, potato, tomato, other legumes, crucifers, or cucurbits increase sclerotinia\" in the soil and should be avoided before and after snap beans. See the entry for \"Legumes\" for more info",
+        "de": "Salat, Kartoffel, Tomate, andere Hülsenfrüchte, Kreuzblütler oder Kürbisgewächse erhöhen den Sclerotinia-Befall im Boden und sollten vor und nach Buschbohnen gemieden werden. Zwiebeln hemmen das Wachstum der Buschbohne (Mischkultur).",
+        "fr": "La laitue, la pomme de terre, la tomate, d'autres légumineuses, les crucifères ou les cucurbitacées favorisent la sclerotiniose dans le sol et sont à éviter avant et après les haricots nains. Les oignons freinent leur croissance (Mischkultur)."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -81,7 +90,11 @@
         "brassicas",
         "kohlrabi"
       ],
-      "comments": "the stalk of the corn provides a pole for the beans to grow on, which then gives nitrogen to the soil of the corn. Beans and corn are traditional \"Three Sisters\" plants. As for Radishes, see the entry for \"Legumes\".",
+      "comments": {
+        "en": "the stalk of the corn provides a pole for the beans to grow on, which then gives nitrogen to the soil of the corn. Beans and corn are traditional \"Three Sisters\" plants. As for Radishes, see the entry for \"Legumes\".",
+        "de": "Der Maisstiel dient den Stangenbohnen als Kletterstütze; die Bohnen geben dem Mais Stickstoff zurück. Stangenbohnen und Mais sind traditionelle Drei-Schwestern-Pflanzen.",
+        "fr": "La tige du maïs sert de support aux haricots, qui enrichissent en retour le sol en azote. Haricots et maïs font partie des traditionnelles « Trois Sœurs »."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -119,7 +132,11 @@
       "avoid": [
         "legumes"
       ],
-      "comments": "Good for adding minerals to the soil through composting leaves which have up to 25% magnesium. Runner or pole beans and beets stunt each other's growth.",
+      "comments": {
+        "en": "Good for adding minerals to the soil through composting leaves which have up to 25% magnesium. Runner or pole beans and beets stunt each other's growth.",
+        "de": "Rote-Bete-Blätter sind wertvoll für den Kompost – sie enthalten bis zu 25 % Magnesium. Stangenbohnen hemmen das Wachstum der Roten Bete gegenseitig.",
+        "fr": "Les feuilles de betterave, riches en magnésium (jusqu'à 25 %), sont excellentes pour le compost. Les haricots à rames freinent mutuellement la croissance des betteraves."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -141,7 +158,11 @@
         "beans-pole",
         "strawberries"
       ],
-      "comments": "Brassicas are a family of plants which includes broccoli, Brussels sprouts, cabbage, cauliflower, Chinese cabbage, kohlrabi, radish, and turnip. Thyme, nasturtiums, and onion showed good resistance to cabbage worm, weevil and cabbage looper.",
+      "comments": {
+        "en": "Brassicas are a family of plants which includes broccoli, Brussels sprouts, cabbage, cauliflower, Chinese cabbage, kohlrabi, radish, and turnip. Thyme, nasturtiums, and onion showed good resistance to cabbage worm, weevil and cabbage looper.",
+        "de": "Kreuzblütler umfassen Brokkoli, Rosenkohl, Kohl, Blumenkohl, Chinakohl, Kohlrabi, Radieschen und Rüben. Thymian, Kapuzinerkresse und Zwiebeln zeigten gute Wirkung gegen Kohlraupe, Rüsselkäfer und Kohlmotte.",
+        "fr": "Les brassicacées comprennent brocoli, chou de Bruxelles, chou, chou-fleur, chou chinois, chou-rave, radis et navet. Le thym, la capucine et l'oignon montrent une bonne résistance contre les chenilles du chou, les charançons et la fausse teigne."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -157,7 +178,11 @@
         "lettuce"
       ],
       "avoid": [],
-      "comments": "Broccoli as a main crop intercropped with lettuce was shown to be more profitable than either crop alone. Turnip acts as a trap crop. See brassicas entry for more info",
+      "comments": {
+        "en": "Broccoli as a main crop intercropped with lettuce was shown to be more profitable than either crop alone. Turnip acts as a trap crop. See brassicas entry for more info",
+        "de": "Brokkoli als Hauptkultur zusammen mit Salat war rentabler als jede Kultur allein. Rüben dienen als Fangpflanze für Schädlinge.",
+        "fr": "Le brocoli cultivé en association avec la laitue s'avère plus rentable que chaque culture séparément. Le navet sert de plante-piège contre les ravageurs."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -190,7 +215,11 @@
       "avoid": [
         "grapes"
       ],
-      "comments": "See brassicas entry for more info. If using clover as an intercrop it should be sown after cabbage transplant so as not to affect crop yield. Nasturtiums repel cabbage moths",
+      "comments": {
+        "en": "See brassicas entry for more info. If using clover as an intercrop it should be sown after cabbage transplant so as not to affect crop yield. Nasturtiums repel cabbage moths",
+        "de": "Wird Klee als Zwischenfrucht eingesetzt, sollte er erst nach dem Auspflanzen des Kohls gesät werden, um den Ertrag nicht zu beeinträchtigen. Kapuzinerkresse hält Kohlmotten fern.",
+        "fr": "Si le trèfle est utilisé comme culture intercalaire, le semer après le repiquage du chou pour préserver le rendement. Les capucines repoussent les papillons du chou."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -216,7 +245,11 @@
         "parsnip",
         "radish"
       ],
-      "comments": "Tomatoes grow better with carrots, but may stunt the carrots' growth. Beans provide the nitrogen carrots need more than some other vegetables. Aromatic companion plants repel carrot fly. Alliums inter-planted with carrots confuse onion and carrot flies. For the beneficial insect-attracting properties of carrots to work, they need to be allowed to flower; Otherwise, use wild carrot, Queen Anne's Lace, for the same effect.",
+      "comments": {
+        "en": "Tomatoes grow better with carrots, but may stunt the carrots' growth. Beans provide the nitrogen carrots need more than some other vegetables. Aromatic companion plants repel carrot fly. Alliums inter-planted with carrots confuse onion and carrot flies. For the beneficial insect-attracting properties of carrots to work, they need to be allowed to flower; Otherwise, use wild carrot, Queen Anne's Lace, for the same effect.",
+        "de": "Tomaten wachsen neben Karotten besser, können aber deren Wachstum hemmen. Hülsenfrüchte liefern den Karotten nötigen Stickstoff. Aromatische Begleitpflanzen vertreiben die Möhrenfliege. Lauchgewächse verwirren Zwiebel- und Möhrenfliegen. Damit Karotten Nützlinge anziehen, müssen sie blühen dürfen – alternativ wirkt Wilde Möhre (Daucus carota) ebenso.",
+        "fr": "Les tomates poussent mieux à côté des carottes, mais peuvent freiner leur croissance. Les légumineuses apportent l'azote nécessaire. Les plantes aromatiques repoussent la mouche de la carotte. Les alliacées brouillent les pistes pour les mouches de l'oignon et de la carotte. Pour que les carottes attirent les insectes utiles, laisser monter en graine – sinon, la carotte sauvage (Daucus carota) produit le même effet."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -255,7 +288,11 @@
       "avoid": [
         "corn-maize"
       ],
-      "comments": "Aster flowers, can transmit the aster yellows disease",
+      "comments": {
+        "en": "Aster flowers, can transmit the aster yellows disease",
+        "de": "Asterblüten können die Aster-Vergilbungskrankheit auf Sellerie übertragen.",
+        "fr": "Les fleurs d'aster peuvent transmettre la jaunisse de l'aster au céleri."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -294,7 +331,11 @@
         "tomatoes",
         "celery"
       ],
-      "comments": "Provides beans with a trellis, is protected from predators and dryness by cucurbits, in the three sisters technique",
+      "comments": {
+        "en": "Provides beans with a trellis, is protected from predators and dryness by cucurbits, in the three sisters technique",
+        "de": "Mais dient Bohnen als Rankhilfe und wird durch Kürbisgewächse vor Schädlingen und Austrocknung geschützt – das klassische Drei-Schwestern-Prinzip.",
+        "fr": "Le maïs sert de tuteur aux haricots et est protégé par les cucurbitacées contre les ravageurs et la sécheresse – technique des « Trois Sœurs »."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -314,7 +355,11 @@
       "avoid": [
         "potato"
       ],
-      "comments": "Sow 2 or 3 radish seeds in with cucumbers to repel cucumber beetles. One study showed a 75% reduction in cucumber beetles with the concurrent seeding of amaranth. Various sprays from lettuce, asparagus, Malabar spinach, and celery were found to reduce whiteflies. See cucurbits entry for more info",
+      "comments": {
+        "en": "Sow 2 or 3 radish seeds in with cucumbers to repel cucumber beetles. One study showed a 75% reduction in cucumber beetles with the concurrent seeding of amaranth. Various sprays from lettuce, asparagus, Malabar spinach, and celery were found to reduce whiteflies. See cucurbits entry for more info",
+        "de": "2–3 Radieschen zwischen die Gurken säen, um Gurkenkäfer zu vertreiben. Eine Studie zeigte 75 % weniger Gurkenkäfer beim gleichzeitigen Anbau mit Amarant. Spritzbrühen aus Salat, Spargel und Sellerie reduzierten Weiße Fliegen.",
+        "fr": "Semer 2–3 radis parmi les concombres pour repousser les chrysomèles. Une étude a montré 75 % de réduction en semant simultanément de l'amarante. Des pulvérisations à base de laitue, asperge et céleri réduisent les aleurodes."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -330,7 +375,11 @@
         "corn-maize"
       ],
       "avoid": [],
-      "comments": "Cucurbits are a family of plants that includes melons, cucumbers, gourds, pumpkins, and squash",
+      "comments": {
+        "en": "Cucurbits are a family of plants that includes melons, cucumbers, gourds, pumpkins, and squash",
+        "de": "Kürbisgewächse sind eine Pflanzenfamilie, zu der Melonen, Gurken, Kürbisse, Zucchini und Flaschenkürbisse gehören.",
+        "fr": "Les cucurbitacées sont une famille de plantes qui comprend les melons, les concombres, les courges, les citrouilles et les courgettes."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -349,7 +398,11 @@
         "passion-fruit"
       ],
       "avoid": [],
-      "comments": "Marigolds will deter nematodes.",
+      "comments": {
+        "en": "Marigolds will deter nematodes.",
+        "de": "Ringelblumen halten Nematoden fern.",
+        "fr": "Les soucis repoussent les nématodes."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -420,7 +473,11 @@
       "avoid": [
         "alliums"
       ],
-      "comments": "Hosts nitrogen-fixing bacteria, a good fertiliser for some plants, too much for others. Rosemary and peppermint extracts are used in organic sprays for beans. Summer savory and potatoes repel bean beetles.",
+      "comments": {
+        "en": "Hosts nitrogen-fixing bacteria, a good fertiliser for some plants, too much for others. Rosemary and peppermint extracts are used in organic sprays for beans. Summer savory and potatoes repel bean beetles.",
+        "de": "Hülsenfrüchte beherbergen stickstofffixierende Bakterien – für viele Pflanzen ein natürlicher Dünger, aber zu reichhaltig für manche. Rosmarin- und Pfefferminzextrakte werden als Bio-Spritzbrühen für Bohnen verwendet. Bohnenkraut und Kartoffeln halten Bohnenkäfer fern.",
+        "fr": "Les légumineuses hébergent des bactéries fixatrices d'azote – un engrais naturel pour beaucoup de plantes, mais trop riche pour certaines. Des extraits de romarin et de menthe poivrée sont utilisés en pulvérisation bio pour les haricots. La sarriette et la pomme de terre repoussent les bruches."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -447,7 +504,11 @@
         "cabbage",
         "parsley"
       ],
-      "comments": "Broccoli when intercropped with lettuce was shown to be more profitable than either crop alone.",
+      "comments": {
+        "en": "Broccoli when intercropped with lettuce was shown to be more profitable than either crop alone.",
+        "de": "Brokkoli zusammen mit Salat angebaut war nachweislich rentabler als jede Kultur allein.",
+        "fr": "Le brocoli cultivé en association avec la laitue s'avère plus rentable que chaque culture séparément."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -491,7 +552,11 @@
         "dill",
         "brassicas"
       ],
-      "comments": "Nightshades are a family of plants which include tomatoes, tobacco, chili peppers , potatoes, eggplant, and others",
+      "comments": {
+        "en": "Nightshades are a family of plants which include tomatoes, tobacco, chili peppers , potatoes, eggplant, and others",
+        "de": "Nachtschattengewächse sind eine Pflanzenfamilie, zu der Tomaten, Tabak, Chili, Kartoffeln und Auberginen gehören.",
+        "fr": "Les solanacées sont une famille de plantes qui comprend les tomates, le tabac, les piments, les pommes de terre et les aubergines."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -509,7 +574,11 @@
         "peppers"
       ],
       "avoid": [],
-      "comments": "Okra and sweet potato are mutually beneficial when planted simultaneously.",
+      "comments": {
+        "en": "Okra and sweet potato are mutually beneficial when planted simultaneously.",
+        "de": "Okra und Süßkartoffel fördern sich gegenseitig beim gleichzeitigen Anbau.",
+        "fr": "Le gombo et la patate douce se stimulent mutuellement lorsqu'ils sont plantés ensemble."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -553,7 +622,11 @@
         "fruit-trees"
       ],
       "avoid": [],
-      "comments": "The flowers of the parsnip plant left to seed will attract a variety of predatory insects to the garden, they are particularly helpful when left under fruit trees, the predators attacking codling moth and light brown apple moth.",
+      "comments": {
+        "en": "The flowers of the parsnip plant left to seed will attract a variety of predatory insects to the garden, they are particularly helpful when left under fruit trees, the predators attacking codling moth and light brown apple moth.",
+        "de": "Die Blüten der Pastinake – wenn man sie aussamen lässt – ziehen viele Nützlinge an, besonders wertvoll unter Obstbäumen, wo Schlupfwespen Apfelwickler und andere Motten bekämpfen.",
+        "fr": "Les fleurs de panais laissées à monter en graine attirent de nombreux insectes prédateurs, particulièrement utiles sous les arbres fruitiers où ils s'attaquent aux carpocapses et aux tordeuses."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -571,7 +644,11 @@
         "garlic"
       ],
       "avoid": [],
-      "comments": "Peas when intercropped with turnips, cauliflower, or garlic showed mutual suppression of growth however their profit per land area used was increased.",
+      "comments": {
+        "en": "Peas when intercropped with turnips, cauliflower, or garlic showed mutual suppression of growth however their profit per land area used was increased.",
+        "de": "Erbsen zusammen mit Rüben, Blumenkohl oder Knoblauch zeigten zwar gegenseitige Wachstumshemmung, erzielten aber einen höheren Flächenertrag.",
+        "fr": "Les pois cultivés avec des navets, du chou-fleur ou de l'ail montrent une suppression mutuelle de la croissance, mais un meilleur rendement à l'hectare."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -591,7 +668,11 @@
         "brassicas",
         "brussels-sprouts"
       ],
-      "comments": "Pepper plants like high humidity, which can be helped along by planting with some kind of dense-leaf or ground-cover companion, like marjoram and basil; pepper plants grown together, or with tomatoes, can shelter the fruit from excess sunlight, and raise the humidity level. Sunflowers, when in bloom at the right time, shelter beneficial insects, lowering thrips populations.",
+      "comments": {
+        "en": "Pepper plants like high humidity, which can be helped along by planting with some kind of dense-leaf or ground-cover companion, like marjoram and basil; pepper plants grown together, or with tomatoes, can shelter the fruit from excess sunlight, and raise the humidity level. Sunflowers, when in bloom at the right time, shelter beneficial insects, lowering thrips populations.",
+        "de": "Paprika braucht hohe Luftfeuchtigkeit; dichte Begleitpflanzen wie Majoran oder Basilikum helfen. Neben Tomaten angebaut schützen sich beide gegenseitig vor Sonneneinstrahlung und erhöhen die Feuchtigkeit. Sonnenblumen in Blüte schützen Nützlinge und reduzieren Thripse.",
+        "fr": "Les poivrons aiment une forte humidité : des plantes à feuillage dense comme la marjolaine et le basilic y contribuent. Cultivés avec des tomates, ils se protègent mutuellement du soleil excessif. Les tournesols en fleurs abritent les insectes utiles et réduisent les thrips."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -618,7 +699,11 @@
         "sunflower",
         "tomatoes"
       ],
-      "comments": "Horseradish increases the disease resistance of potatoes. It repels the potato bug. Garlic is more effective than fungicides on late potato blight. Peas were shown to reduce the density of Colorado potato beetles.",
+      "comments": {
+        "en": "Horseradish increases the disease resistance of potatoes. It repels the potato bug. Garlic is more effective than fungicides on late potato blight. Peas were shown to reduce the density of Colorado potato beetles.",
+        "de": "Meerrettich stärkt die Krankheitsresistenz der Kartoffel und hält den Kartoffelkäfer fern. Knoblauch wirkt besser als Fungizide gegen Kraut- und Knollenfäule. Erbsen reduzieren die Dichte des Kartoffelkäfers nachweislich.",
+        "fr": "Le raifort renforce la résistance aux maladies de la pomme de terre et repousse le doryphore. L'ail est plus efficace que les fongicides contre le mildiou. Les pois réduisent la densité du doryphore de la pomme de terre."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -637,7 +722,11 @@
       "avoid": [
         "potato"
       ],
-      "comments": "Radishes can be used as a trap crop against flea beetles, cucurbita can be used in the Three Sisters technique. Nasturtiums repel squash bugs.",
+      "comments": {
+        "en": "Radishes can be used as a trap crop against flea beetles, cucurbita can be used in the Three Sisters technique. Nasturtiums repel squash bugs.",
+        "de": "Radieschen dienen als Fangpflanze gegen Erdflöhe. Kürbis ist Teil der Drei-Schwestern-Methode. Kapuzinerkresse hält Kürbisläuse fern.",
+        "fr": "Les radis servent de plante-piège contre les altises. La citrouille s'intègre dans la technique des Trois Sœurs. Les capucines repoussent les punaises des courges."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -660,7 +749,11 @@
       "avoid": [
         "grapes"
       ],
-      "comments": "Radishes can be used as a trap crop against flea beetles. Radishes grown with lettuce taste better.",
+      "comments": {
+        "en": "Radishes can be used as a trap crop against flea beetles. Radishes grown with lettuce taste better.",
+        "de": "Radieschen dienen als Fangpflanze gegen Erdflöhe. Mit Salat zusammen angebaute Radieschen schmecken besser.",
+        "fr": "Les radis peuvent servir de plante-piège contre les altises. Les radis cultivés avec de la laitue ont meilleur goût."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -674,7 +767,11 @@
       "synonyms": [],
       "helps": [],
       "avoid": [],
-      "comments": "A mixture of corn, mungbean, and sunflower was found to rid soybeans of aphids.",
+      "comments": {
+        "en": "A mixture of corn, mungbean, and sunflower was found to rid soybeans of aphids.",
+        "de": "Eine Mischung aus Mais, Mungbohne und Sonnenblume hat sich als wirksam gegen Blattläuse bei Soja erwiesen.",
+        "fr": "Un mélange de maïs, de haricot mungo et de tournesol s'est révélé efficace pour éliminer les pucerons des plants de soja."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -691,7 +788,11 @@
         "passion-fruit"
       ],
       "avoid": [],
-      "comments": "The peas and beans provide natural shade for the spinach. See cauliflower notes regarding mutualism with spinach.",
+      "comments": {
+        "en": "The peas and beans provide natural shade for the spinach. See cauliflower notes regarding mutualism with spinach.",
+        "de": "Erbsen und Bohnen spenden dem Spinat natürlichen Schatten und halten ihn dadurch länger erntereif.",
+        "fr": "Les pois et les haricots offrent une ombre naturelle aux épinards et retardent leur montée en graine."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -709,7 +810,11 @@
         "okra"
       ],
       "avoid": [],
-      "comments": "Radishes can be used as a trap crop against flea beetles, cucurbita can be used in the three sisters technique. Marigolds and nasturtiums repel squash bugs. Marigolds repel cucumber beetles.",
+      "comments": {
+        "en": "Radishes can be used as a trap crop against flea beetles, cucurbita can be used in the three sisters technique. Marigolds and nasturtiums repel squash bugs. Marigolds repel cucumber beetles.",
+        "de": "Radieschen als Fangpflanze gegen Erdflöhe. Kürbisgewächse eignen sich für die Drei-Schwestern-Methode. Ringelblumen und Kapuzinerkresse vertreiben Kürbisläuse; Ringelblumen halten auch Gurkenkäfer fern.",
+        "fr": "Les radis servent de plante-piège contre les altises. Les courges s'intègrent dans la technique des Trois Sœurs. Les soucis et les capucines repoussent les punaises des courges; les soucis repoussent aussi les chrysomèles du concombre."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -725,7 +830,11 @@
         "okra"
       ],
       "avoid": [],
-      "comments": "Okra and sweet potato are mutually beneficial when planted simultaneously.",
+      "comments": {
+        "en": "Okra and sweet potato are mutually beneficial when planted simultaneously.",
+        "de": "Okra und Süßkartoffel fördern sich gegenseitig beim gleichzeitigen Anbau.",
+        "fr": "Le gombo et la patate douce se stimulent mutuellement lorsqu'ils sont plantés ensemble."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -736,7 +845,12 @@
         "fr": "Tomate",
         "la": "Solanum lycopersicum"
       },
-      "synonyms": [],
+      "synonyms": [
+        "tomaten",
+        "tomato",
+        "love apple",
+        "love apples"
+      ],
       "helps": [
         "celery",
         "rose",
@@ -754,9 +868,14 @@
         "potato",
         "beets",
         "brassicas",
-        "rosemary"
+        "rosemary",
+        "radish"
       ],
-      "comments": "Black walnuts inhibit tomato growth, in fact they are negative allelopathic to all other nightshade plants as well, because it produces a chemical called juglone. Dill attracts tomato hornworm.Growing tomatoes with Basil does not appear to enhance tomato flavour but studies have shown that growing them around 10 inches apart can increase the yield of tomatoes by about 20%. One study shows that growing chili peppers near tomatoes in greenhouses increases tomato whitefly on the tomatoes. Cucumbers and squash can be used as living mulch, or green mulch, around tomato plants. The large leaves of these vining plants can help with soil moisture retention.",
+      "comments": {
+        "en": "Black walnuts inhibit tomato growth, in fact they are negative allelopathic to all other nightshade plants as well, because it produces a chemical called juglone. Dill attracts tomato hornworm.Growing tomatoes with Basil does not appear to enhance tomato flavour but studies have shown that growing them around 10 inches apart can increase the yield of tomatoes by about 20%. One study shows that growing chili peppers near tomatoes in greenhouses increases tomato whitefly on the tomatoes. Cucumbers and squash can be used as living mulch, or green mulch, around tomato plants. The large leaves of these vining plants can help with soil moisture retention.",
+        "de": "Walnüsse hemmen das Tomatenwachstum durch Juglone (negativ allelopathisch für alle Nachtschattengewächse). Dill zieht den Tomatenschwärmer an. Basilikum im Abstand von ca. 25 cm kann den Tomatenertrag um rund 20 % steigern. Gurken und Zucchini als lebende Mulchpflanzen helfen, Bodenfeuchtigkeit zu erhalten. Radieschen hemmen das Tomatenwachstum (Mischkultur).",
+        "fr": "Le noyer inhibe la croissance des tomates via la jugulone (allélopathie négative pour toutes les solanacées). L'aneth attire le sphinx de la tomate. Le basilic à environ 25 cm des tomates peut augmenter le rendement d'environ 20 %. Les concombres et courges en paillis vivant conservent l'humidité du sol. Les radis freinent la croissance des tomates (Mischkultur)."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -775,7 +894,11 @@
       "avoid": [
         "mustard"
       ],
-      "comments": "Turnips act as a trap crop for broccoli. See peas regarding their mutualism with turnips.",
+      "comments": {
+        "en": "Turnips act as a trap crop for broccoli. See peas regarding their mutualism with turnips.",
+        "de": "Rüben wirken als Fangpflanze für Schädlinge des Brokkolis.",
+        "fr": "Les navets servent de plante-piège contre les ravageurs du brocoli."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -789,7 +912,11 @@
       "synonyms": [],
       "helps": [],
       "avoid": [],
-      "comments": "French marigold inhibits codling moth but also its insect enemies, and fails to reduce damage to apples.",
+      "comments": {
+        "en": "French marigold inhibits codling moth but also its insect enemies, and fails to reduce damage to apples.",
+        "de": "Studentenblumen hemmen den Apfelwickler, aber auch dessen natürliche Feinde – der Schaden an den Früchten nimmt daher nicht ab.",
+        "fr": "Le souci d'Inde inhibe le carpocapse mais aussi ses ennemis naturels, sans réduire les dégâts sur les pommes."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -805,7 +932,11 @@
       "avoid": [
         "peppers"
       ],
-      "comments": "A fungus that peppers are prone to can infect apricot trees causing a lot of harm.",
+      "comments": {
+        "en": "A fungus that peppers are prone to can infect apricot trees causing a lot of harm.",
+        "de": "Ein Pilz, der Paprika befällt, kann auf Aprikosenbäume übergreifen und diese schwer schädigen.",
+        "fr": "Un champignon fréquent sur les poivrons peut infecter les abricotiers et causer de graves dommages."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -821,7 +952,11 @@
       "avoid": [
         "tomatoes"
       ],
-      "comments": "Pine and oak trees create the acidic soil blueberries need. Strawberries and dewberries create healthy ground cover, clover fixes nitrogen for the blueberries' high needs, yarrow and bay laurel repel unhealthy insects. Each of the herbal companions listed also like the acidic soil the blueberry plant needs.",
+      "comments": {
+        "en": "Pine and oak trees create the acidic soil blueberries need. Strawberries and dewberries create healthy ground cover, clover fixes nitrogen for the blueberries' high needs, yarrow and bay laurel repel unhealthy insects. Each of the herbal companions listed also like the acidic soil the blueberry plant needs.",
+        "de": "Kiefern und Eichen schaffen den sauren Boden, den Heidelbeeren benötigen. Erdbeeren und Brombeeren bieten gute Bodenbedeckung, Klee bindet Stickstoff, Schafgarbe und Lorbeer halten Schädlinge fern.",
+        "fr": "Les pins et les chênes créent le sol acide dont les myrtilles ont besoin. Les fraises offrent une bonne couverture du sol, le trèfle fixe l'azote, l'achillée et le laurier repoussent les nuisibles."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -929,7 +1064,11 @@
         "peppermint",
         "rose"
       ],
-      "comments": "Thyme planted and/or placed next to each other help grow more strawberries quickly.",
+      "comments": {
+        "en": "Thyme planted and/or placed next to each other help grow more strawberries quickly.",
+        "de": "Thymian neben Erdbeeren soll deren Ertrag steigern.",
+        "fr": "Le thym planté à côté des fraisiers favoriserait leur fructification."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -943,7 +1082,11 @@
       "synonyms": [],
       "helps": [],
       "avoid": [],
-      "comments": "Not to be confused with star anise which is an entirely different species.",
+      "comments": {
+        "en": "Not to be confused with star anise which is an entirely different species.",
+        "de": "Nicht mit dem Sternanis verwechseln – das ist eine völlig andere Art.",
+        "fr": "À ne pas confondre avec la badiane (anis étoilé), une espèce totalement différente."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -966,7 +1109,11 @@
       "avoid": [
         "thyme"
       ],
-      "comments": "Is said to make tomatoes taste better, chamomile and anise are supposed to increase the essential oils in many herbs like basil",
+      "comments": {
+        "en": "Is said to make tomatoes taste better, chamomile and anise are supposed to increase the essential oils in many herbs like basil",
+        "de": "Soll Tomaten besser schmecken lassen. Kamille und Anis steigern den Gehalt an ätherischen Ölen bei Basilikum und anderen Kräutern.",
+        "fr": "On dit qu'il améliore le goût des tomates. La camomille et l'anis augmentent la teneur en huiles essentielles du basilic et d'autres herbes."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -986,7 +1133,11 @@
         "cabbage"
       ],
       "avoid": [],
-      "comments": "Predict a square metre for its adult size. Borage is a good companion for a wide variety of plants.",
+      "comments": {
+        "en": "Predict a square metre for its adult size. Borage is a good companion for a wide variety of plants.",
+        "de": "Für ausgewachsenen Borretsch rund einen Quadratmeter einplanen. Er ist ein guter Begleiter für viele verschiedene Pflanzen.",
+        "fr": "Prévoir environ un mètre carré pour la plante adulte. La bourrache est un excellent compagnon pour une grande variété de plantes."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -1039,7 +1190,11 @@
         "cabbage"
       ],
       "avoid": [],
-      "comments": "Growing near herbs will increase their oil production.",
+      "comments": {
+        "en": "Growing near herbs will increase their oil production.",
+        "de": "In der Nähe von Kräutern angebaut fördert Kamille deren Produktion ätherischer Öle.",
+        "fr": "Cultivée près des herbes aromatiques, la camomille stimule leur production d'huiles essentielles."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -1059,7 +1214,11 @@
       "avoid": [
         "radish"
       ],
-      "comments": "Loves shade, fortunately it grows well with shade-tolerant food plants; will make radishes grown near it taste spicier",
+      "comments": {
+        "en": "Loves shade, fortunately it grows well with shade-tolerant food plants; will make radishes grown near it taste spicier",
+        "de": "Kerbel liebt Schatten und gedeiht gut neben schattentoleranten Nutzpflanzen. Radieschen in seiner Nähe schmecken würziger.",
+        "fr": "Le cerfeuil aime l'ombre et pousse bien avec les plantes comestibles à l'ombre tolérée. Les radis cultivés près de lui ont un goût plus relevé."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -1085,7 +1244,11 @@
         "legumes",
         "peas"
       ],
-      "comments": "Same companion traits as all alliums said to prevent apple scab after 3 years planting at base of apple trees",
+      "comments": {
+        "en": "Same companion traits as all alliums said to prevent apple scab after 3 years planting at base of apple trees",
+        "de": "Schnittlauch hat dieselben Begleiteigenschaften wie alle Lauchgewächse. Drei Jahre am Fuß von Apfelbäumen gepflanzt, soll er Schorf verhindern.",
+        "fr": "La ciboulette partage les propriétés compagnes de tous les alliacés. Plantée au pied des pommiers pendant 3 ans, elle serait efficace contre la tavelure."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -1144,7 +1307,11 @@
         "dill"
       ],
       "avoid": [],
-      "comments": "Allelopathic — inhibits many vegetables. Keep isolated.",
+      "comments": {
+        "en": "Allelopathic — inhibits many vegetables. Keep isolated.",
+        "de": "Allelopathisch – hemmt viele Gemüsepflanzen durch Wurzelausscheidungen. Isoliert anpflanzen.",
+        "fr": "Allélopathique – inhibe de nombreux légumes par ses sécrétions racinaires. À planter à l'écart."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
@@ -1669,7 +1836,11 @@
         "brassicas"
       ],
       "avoid": [],
-      "comments": "Repels nematodes and whitefly. Excellent border plant.",
+      "comments": {
+        "en": "Repels nematodes and whitefly. Excellent border plant.",
+        "de": "Vertreibt Nematoden und Weiße Fliege durch Wurzelausscheidungen. Ausgezeichnete Randpflanze für das Gemüsebeet.",
+        "fr": "Repousse les nématodes et les aleurodes grâce à ses sécrétions racinaires. Excellente plante de bordure pour le potager."
+      },
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
     {
