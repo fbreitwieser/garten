@@ -5,8 +5,8 @@
       "id": "alliums",
       "names": {
         "en": "Alliums",
-        "de": "Lauch (Gattung)",
-        "fr": "Allium",
+        "de": "Lauchgewächse",
+        "fr": "Alliums",
         "la": "Allium"
       },
       "synonyms": [],
@@ -14,11 +14,12 @@
         "fruit-trees",
         "nightshades",
         "peppers",
+        "potato",
         "brassicas",
         "carrots"
       ],
       "avoid": [
-        "beans-bush",
+        "legumes",
         "peas"
       ],
       "comments": "Allium is a genus of plants which includes onions and garlic.",
@@ -28,7 +29,7 @@
       "id": "asparagus",
       "names": {
         "en": "Asparagus",
-        "de": "Gemüsespargel",
+        "de": "Spargel",
         "fr": "Asperge",
         "la": "Asparagus officinalis"
       },
@@ -39,7 +40,8 @@
       ],
       "avoid": [
         "onion",
-        "garlic"
+        "garlic",
+        "potato"
       ],
       "comments": "",
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
@@ -48,8 +50,8 @@
       "id": "beans-bush",
       "names": {
         "en": "Beans, bush",
-        "de": "Beans, bush",
-        "fr": "Beans, bush",
+        "de": "Buschbohne",
+        "fr": "Haricot nain",
         "la": "Phaseolus vulgaris"
       },
       "synonyms": [],
@@ -58,6 +60,8 @@
         "strawberries"
       ],
       "avoid": [
+        "soybean",
+        "legumes",
         "alfalfa"
       ],
       "comments": "\"Lettuce, potato, tomato, other legumes, crucifers, or cucurbits increase sclerotinia\" in the soil and should be avoided before and after snap beans. See the entry for \"Legumes\" for more info",
@@ -67,8 +71,8 @@
       "id": "beans-pole",
       "names": {
         "en": "Beans, pole",
-        "de": "Beans, pole",
-        "fr": "Beans, pole",
+        "de": "Stangenbohne",
+        "fr": "Haricot à rames",
         "la": "Phaseolus vulgaris"
       },
       "synonyms": [],
@@ -84,8 +88,8 @@
       "id": "beans-fava",
       "names": {
         "en": "Beans, fava",
-        "de": "Beans, fava",
-        "fr": "Beans, fava",
+        "de": "Saubohne / Favabohne",
+        "fr": "Fève",
         "la": "Vicia faba"
       },
       "synonyms": [],
@@ -98,8 +102,8 @@
       "id": "beets",
       "names": {
         "en": "Beets",
-        "de": "Beets",
-        "fr": "Beets",
+        "de": "Rote Bete",
+        "fr": "Betterave",
         "la": "Beta vulgaris"
       },
       "synonyms": [],
@@ -108,10 +112,13 @@
         "cabbage",
         "lettuce",
         "kohlrabi",
+        "onion",
         "brassicas",
         "passion-fruit"
       ],
-      "avoid": [],
+      "avoid": [
+        "legumes"
+      ],
       "comments": "Good for adding minerals to the soil through composting leaves which have up to 25% magnesium. Runner or pole beans and beets stunt each other's growth.",
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
@@ -119,13 +126,16 @@
       "id": "brassicas",
       "names": {
         "en": "Brassicas",
-        "de": "Brassicas",
-        "fr": "Brassicas",
+        "de": "Kreuzblütler / Kohlgewächse",
+        "fr": "Brassicacées",
         "la": "Brassica"
       },
       "synonyms": [],
-      "helps": [],
+      "helps": [
+        "onion"
+      ],
       "avoid": [
+        "mustard",
         "nightshades",
         "peppers",
         "beans-pole",
@@ -138,8 +148,8 @@
       "id": "broccoli",
       "names": {
         "en": "Broccoli",
-        "de": "Broccoli",
-        "fr": "Broccoli",
+        "de": "Brokkoli",
+        "fr": "Brocoli",
         "la": "Brassica oleracea"
       },
       "synonyms": [],
@@ -154,8 +164,8 @@
       "id": "brussels-sprouts",
       "names": {
         "en": "Brussels sprouts",
-        "de": "Brussels sprouts",
-        "fr": "Brussels sprouts",
+        "de": "Rosenkohl",
+        "fr": "Chou de Bruxelles",
         "la": "Brassica oleracea"
       },
       "synonyms": [],
@@ -168,13 +178,13 @@
       "id": "cabbage",
       "names": {
         "en": "Cabbage",
-        "de": "Cabbage",
-        "fr": "Cabbage",
+        "de": "Kohl",
+        "fr": "Chou",
         "la": "Brassica oleracea / Brassica chinensis"
       },
       "synonyms": [],
       "helps": [
-        "beans-bush",
+        "legumes",
         "celery"
       ],
       "avoid": [
@@ -187,16 +197,18 @@
       "id": "carrots",
       "names": {
         "en": "Carrots",
-        "de": "Carrots",
-        "fr": "Carrots",
+        "de": "Karotte / Möhre",
+        "fr": "Carotte",
         "la": "Daucus carota"
       },
       "synonyms": [],
       "helps": [
         "tomatoes",
         "alliums",
-        "beans-bush",
+        "legumes",
+        "leek",
         "lettuce",
+        "onion",
         "passion-fruit"
       ],
       "avoid": [
@@ -211,13 +223,13 @@
       "id": "cauliflower",
       "names": {
         "en": "Cauliflower",
-        "de": "Cauliflower",
-        "fr": "Cauliflower",
+        "de": "Blumenkohl",
+        "fr": "Chou-fleur",
         "la": "Brassica oleracea"
       },
       "synonyms": [],
       "helps": [
-        "beans-bush",
+        "legumes",
         "celery",
         "spinach",
         "peas"
@@ -230,8 +242,8 @@
       "id": "celery",
       "names": {
         "en": "Celery",
-        "de": "Celery",
-        "fr": "Celery",
+        "de": "Sellerie",
+        "fr": "Céleri",
         "la": "Apium graveolens"
       },
       "synonyms": [],
@@ -250,8 +262,8 @@
       "id": "chard",
       "names": {
         "en": "Chard",
-        "de": "Chard",
-        "fr": "Chard",
+        "de": "Mangold",
+        "fr": "Bette / Blette",
         "la": "Beta vulgaris ssp. cicla"
       },
       "synonyms": [],
@@ -267,14 +279,15 @@
       "id": "corn-maize",
       "names": {
         "en": "Corn / Maize",
-        "de": "Corn / Maize",
-        "fr": "Corn / Maize",
+        "de": "Mais",
+        "fr": "Maïs",
         "la": "Zea mays"
       },
       "synonyms": [],
       "helps": [
-        "beans-bush",
+        "legumes",
         "cucurbits",
+        "soybean",
         "tomatoes"
       ],
       "avoid": [
@@ -288,13 +301,13 @@
       "id": "cucumber",
       "names": {
         "en": "Cucumber",
-        "de": "Cucumber",
-        "fr": "Cucumber",
+        "de": "Gurke",
+        "fr": "Concombre",
         "la": "Cucumis sativus"
       },
       "synonyms": [],
       "helps": [
-        "beans-bush",
+        "legumes",
         "kohlrabi",
         "lettuce"
       ],
@@ -308,8 +321,8 @@
       "id": "cucurbits",
       "names": {
         "en": "Cucurbits",
-        "de": "Cucurbits",
-        "fr": "Cucurbits",
+        "de": "Kürbisgewächse",
+        "fr": "Cucurbitacées",
         "la": "Cucurbitaceae"
       },
       "synonyms": [],
@@ -324,13 +337,13 @@
       "id": "eggplant-or-aubergine",
       "names": {
         "en": "Eggplant or Aubergine",
-        "de": "Eggplant or Aubergine",
-        "fr": "Eggplant or Aubergine",
+        "de": "Aubergine",
+        "fr": "Aubergine",
         "la": "Solanum melongena"
       },
       "synonyms": [],
       "helps": [
-        "beans-bush",
+        "legumes",
         "peppers",
         "tomatoes",
         "passion-fruit"
@@ -344,13 +357,14 @@
       "names": {
         "en": "Kohlrabi",
         "de": "Kohlrabi",
-        "fr": "Kohlrabi",
+        "fr": "Chou-rave",
         "la": "Brassica oleracea v. gongylodes"
       },
       "synonyms": [],
       "helps": [
         "onion",
-        "beets"
+        "beets",
+        "cucumber"
       ],
       "avoid": [],
       "comments": "See Brassicas entry for more info",
@@ -360,18 +374,21 @@
       "id": "leek",
       "names": {
         "en": "Leek",
-        "de": "Leek",
-        "fr": "Leek",
+        "de": "Porree / Lauch",
+        "fr": "Poireau",
         "la": "Allium ampeloprasum v. porrum"
       },
       "synonyms": [],
       "helps": [
         "carrots",
         "celery",
+        "onion",
         "tomatoes",
         "passion-fruit"
       ],
-      "avoid": [],
+      "avoid": [
+        "chard"
+      ],
       "comments": "See Alliums entry for more info",
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
@@ -379,8 +396,8 @@
       "id": "legumes",
       "names": {
         "en": "Legumes",
-        "de": "Legumes",
-        "fr": "Legumes",
+        "de": "Hülsenfrüchte",
+        "fr": "Légumineuses",
         "la": "Phaseolus and Vicia"
       },
       "synonyms": [],
@@ -391,11 +408,13 @@
         "potato",
         "cabbage",
         "carrots",
+        "chard",
         "eggplant-or-aubergine",
         "peas",
         "tomatoes",
         "brassicas",
         "corn-maize",
+        "cucumber",
         "grapes"
       ],
       "avoid": [
@@ -408,15 +427,16 @@
       "id": "lettuce",
       "names": {
         "en": "Lettuce",
-        "de": "Lettuce",
-        "fr": "Lettuce",
+        "de": "Salat / Kopfsalat",
+        "fr": "Laitue",
         "la": "Lactuca sativa"
       },
       "synonyms": [],
       "helps": [
         "beets",
-        "beans-bush",
+        "legumes",
         "okra",
+        "onion",
         "radish",
         "broccoli",
         "carrots",
@@ -434,13 +454,13 @@
       "id": "mustard",
       "names": {
         "en": "Mustard",
-        "de": "Mustard",
-        "fr": "Mustard",
+        "de": "Senf",
+        "fr": "Moutarde",
         "la": "Sinapis alba"
       },
       "synonyms": [],
       "helps": [
-        "beans-bush",
+        "legumes",
         "cabbage",
         "cauliflower",
         "fruit-trees",
@@ -457,14 +477,15 @@
       "id": "nightshades",
       "names": {
         "en": "Nightshades",
-        "de": "Nightshades",
-        "fr": "Nightshades",
+        "de": "Nachtschattengewächse",
+        "fr": "Solanacées",
         "la": "Solanaceae"
       },
       "synonyms": [],
       "helps": [],
       "avoid": [
-        "beans-bush",
+        "legumes",
+        "walnut-tree",
         "corn-maize",
         "fennel",
         "dill",
@@ -478,7 +499,7 @@
       "names": {
         "en": "Okra",
         "de": "Okra",
-        "fr": "Okra",
+        "fr": "Gombo",
         "la": "Abelmoschus esculentus"
       },
       "synonyms": [],
@@ -495,8 +516,8 @@
       "id": "onion",
       "names": {
         "en": "Onion",
-        "de": "Onion",
-        "fr": "Onion",
+        "de": "Zwiebel",
+        "fr": "Oignon",
         "la": "Allium cepa"
       },
       "synonyms": [],
@@ -507,12 +528,14 @@
         "broccoli",
         "carrots",
         "lettuce",
+        "cucumber",
         "peppers",
-        "passion-fruit"
+        "passion-fruit",
+        "strawberries"
       ],
       "avoid": [
         "peas",
-        "beans-bush"
+        "legumes"
       ],
       "comments": "See Alliums entry for more info",
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
@@ -521,8 +544,8 @@
       "id": "parsnip",
       "names": {
         "en": "Parsnip",
-        "de": "Parsnip",
-        "fr": "Parsnip",
+        "de": "Pastinake",
+        "fr": "Panais",
         "la": "Pastinaca sativa"
       },
       "synonyms": [],
@@ -537,8 +560,8 @@
       "id": "peas",
       "names": {
         "en": "Peas",
-        "de": "Peas",
-        "fr": "Peas",
+        "de": "Erbse",
+        "fr": "Pois",
         "la": "Pisum sativum"
       },
       "synonyms": [],
@@ -555,8 +578,8 @@
       "id": "peppers",
       "names": {
         "en": "Peppers",
-        "de": "Peppers",
-        "fr": "Peppers",
+        "de": "Paprika / Chili",
+        "fr": "Poivron / Piment",
         "la": "Solanaceae, Capsicum"
       },
       "synonyms": [],
@@ -564,7 +587,8 @@
         "okra"
       ],
       "avoid": [
-        "beans-bush",
+        "legumes",
+        "brassicas",
         "brussels-sprouts"
       ],
       "comments": "Pepper plants like high humidity, which can be helped along by planting with some kind of dense-leaf or ground-cover companion, like marjoram and basil; pepper plants grown together, or with tomatoes, can shelter the fruit from excess sunlight, and raise the humidity level. Sunflowers, when in bloom at the right time, shelter beneficial insects, lowering thrips populations.",
@@ -574,14 +598,14 @@
       "id": "potato",
       "names": {
         "en": "Potato",
-        "de": "Potato",
-        "fr": "Potato",
+        "de": "Kartoffel",
+        "fr": "Pomme de terre",
         "la": "Solanum tuberosum"
       },
       "synonyms": [],
       "helps": [
         "brassicas",
-        "beans-bush",
+        "legumes",
         "corn-maize",
         "peas",
         "passion-fruit"
@@ -601,16 +625,18 @@
       "id": "pumpkin",
       "names": {
         "en": "Pumpkin",
-        "de": "Pumpkin",
-        "fr": "Pumpkin",
+        "de": "Kürbis",
+        "fr": "Citrouille / Potiron",
         "la": "Cucurbita pepo"
       },
       "synonyms": [],
       "helps": [
         "corn-maize",
-        "beans-bush"
+        "legumes"
       ],
-      "avoid": [],
+      "avoid": [
+        "potato"
+      ],
       "comments": "Radishes can be used as a trap crop against flea beetles, cucurbita can be used in the Three Sisters technique. Nasturtiums repel squash bugs.",
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
@@ -618,17 +644,17 @@
       "id": "radish",
       "names": {
         "en": "Radish",
-        "de": "Radish",
-        "fr": "Radish",
+        "de": "Radieschen / Rettich",
+        "fr": "Radis",
         "la": "Raphanus sativus"
       },
       "synonyms": [],
       "helps": [
-        "squash",
+        "eggplant-or-aubergine",
         "cucumber",
         "lettuce",
         "peas",
-        "beans-bush",
+        "legumes",
         "beans-pole"
       ],
       "avoid": [
@@ -641,8 +667,8 @@
       "id": "soybean",
       "names": {
         "en": "Soybean",
-        "de": "Soybean",
-        "fr": "Soybean",
+        "de": "Sojabohne",
+        "fr": "Soja",
         "la": "Glycine max"
       },
       "synonyms": [],
@@ -655,8 +681,8 @@
       "id": "spinach",
       "names": {
         "en": "Spinach",
-        "de": "Spinach",
-        "fr": "Spinach",
+        "de": "Spinat",
+        "fr": "Épinard",
         "la": "Spinacia oleracea"
       },
       "synonyms": [],
@@ -672,14 +698,14 @@
       "id": "squash",
       "names": {
         "en": "Squash",
-        "de": "Squash",
-        "fr": "Squash",
+        "de": "Zucchini / Kürbis",
+        "fr": "Courge",
         "la": "Cucurbita spp."
       },
       "synonyms": [],
       "helps": [
         "corn-maize",
-        "beans-bush",
+        "legumes",
         "okra"
       ],
       "avoid": [],
@@ -690,8 +716,8 @@
       "id": "sweet-potato",
       "names": {
         "en": "Sweet potato",
-        "de": "Sweet potato",
-        "fr": "Sweet potato",
+        "de": "Süßkartoffel",
+        "fr": "Patate douce",
         "la": "Ipomoea batatas"
       },
       "synonyms": [],
@@ -706,22 +732,27 @@
       "id": "tomatoes",
       "names": {
         "en": "Tomatoes",
-        "de": "Tomatoes",
-        "fr": "Tomatoes",
+        "de": "Tomate",
+        "fr": "Tomate",
         "la": "Solanum lycopersicum"
       },
       "synonyms": [],
       "helps": [
         "celery",
+        "rose",
         "peppers",
         "asparagus"
       ],
       "avoid": [
+        "walnut-tree",
         "alfalfa",
         "corn-maize",
         "fennel",
+        "peppers",
         "peas",
         "dill",
+        "potato",
+        "beets",
         "brassicas",
         "rosemary"
       ],
@@ -732,8 +763,8 @@
       "id": "turnips-and-rutabagas",
       "names": {
         "en": "Turnips and rutabagas",
-        "de": "Turnips and rutabagas",
-        "fr": "Turnips and rutabagas",
+        "de": "Rübe / Kohlrübe",
+        "fr": "Navet / Rutabaga",
         "la": "Brassica rapa and Brassica napobrassica"
       },
       "synonyms": [],
@@ -741,7 +772,9 @@
         "peas",
         "broccoli"
       ],
-      "avoid": [],
+      "avoid": [
+        "mustard"
+      ],
       "comments": "Turnips act as a trap crop for broccoli. See peas regarding their mutualism with turnips.",
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
@@ -749,8 +782,8 @@
       "id": "apple",
       "names": {
         "en": "Apple",
-        "de": "Apple",
-        "fr": "Apple",
+        "de": "Apfelbaum",
+        "fr": "Pommier",
         "la": "Malus domestica"
       },
       "synonyms": [],
@@ -763,8 +796,8 @@
       "id": "apricot",
       "names": {
         "en": "Apricot",
-        "de": "Apricot",
-        "fr": "Apricot",
+        "de": "Aprikose",
+        "fr": "Abricotier",
         "la": "Prunus armeniaca"
       },
       "synonyms": [],
@@ -779,8 +812,8 @@
       "id": "blueberries",
       "names": {
         "en": "Blueberries",
-        "de": "Blueberries",
-        "fr": "Blueberries",
+        "de": "Heidelbeere",
+        "fr": "Myrtille",
         "la": "Vaccinium spp."
       },
       "synonyms": [],
@@ -795,8 +828,8 @@
       "id": "fruit-trees",
       "names": {
         "en": "Fruit trees",
-        "de": "Fruit trees",
-        "fr": "Fruit trees",
+        "de": "Obstbäume",
+        "fr": "Arbres fruitiers",
         "la": "Various"
       },
       "synonyms": [],
@@ -809,15 +842,16 @@
       "id": "grapes",
       "names": {
         "en": "Grapes",
-        "de": "Grapes",
-        "fr": "Grapes",
+        "de": "Weinrebe",
+        "fr": "Vigne",
         "la": "Vitis spp."
       },
       "synonyms": [],
       "helps": [],
       "avoid": [
         "cabbage",
-        "garlic"
+        "garlic",
+        "radish"
       ],
       "comments": "",
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
@@ -826,7 +860,7 @@
       "id": "melon",
       "names": {
         "en": "Melon",
-        "de": "Melon",
+        "de": "Melone",
         "fr": "Melon",
         "la": "Cucumis melo"
       },
@@ -840,8 +874,8 @@
       "id": "passion-fruit",
       "names": {
         "en": "Passion fruit",
-        "de": "Passion fruit",
-        "fr": "Passion fruit",
+        "de": "Passionsfrucht",
+        "fr": "Fruit de la passion",
         "la": "Passiflora edulis"
       },
       "synonyms": [],
@@ -859,8 +893,8 @@
       "id": "pears",
       "names": {
         "en": "Pears",
-        "de": "Pears",
-        "fr": "Pears",
+        "de": "Birne",
+        "fr": "Poire",
         "la": "Pyrus spp."
       },
       "synonyms": [],
@@ -873,24 +907,27 @@
       "id": "strawberries",
       "names": {
         "en": "Strawberries",
-        "de": "Strawberries",
-        "fr": "Strawberries",
+        "de": "Erdbeere",
+        "fr": "Fraise",
         "la": "Fragaria × ananassa"
       },
       "synonyms": [],
       "helps": [
         "beans-bush",
         "lettuce",
+        "onion",
         "spinach",
         "passion-fruit"
       ],
       "avoid": [
         "brassicas",
+        "potato",
         "eggplant-or-aubergine",
         "peppers",
+        "melon",
         "okra",
         "peppermint",
-        "beans-bush"
+        "rose"
       ],
       "comments": "Thyme planted and/or placed next to each other help grow more strawberries quickly.",
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
@@ -899,8 +936,8 @@
       "id": "anise",
       "names": {
         "en": "Anise",
-        "de": "Anise",
-        "fr": "Anise",
+        "de": "Anis",
+        "fr": "Anis",
         "la": "Pimpinella anisum"
       },
       "synonyms": [],
@@ -913,8 +950,8 @@
       "id": "basil",
       "names": {
         "en": "Basil",
-        "de": "Basil",
-        "fr": "Basil",
+        "de": "Basilikum",
+        "fr": "Basilic",
         "la": "Ocimum basilicum"
       },
       "synonyms": [],
@@ -923,6 +960,7 @@
         "peppers",
         "oregano",
         "asparagus",
+        "petunia",
         "grapes"
       ],
       "avoid": [
@@ -935,15 +973,17 @@
       "id": "borage",
       "names": {
         "en": "Borage",
-        "de": "Borage",
-        "fr": "Borage",
+        "de": "Borretsch",
+        "fr": "Bourrache",
         "la": "Borago officinalis"
       },
       "synonyms": [],
       "helps": [
+        "strawberries",
         "cucurbits",
+        "squash",
         "fruit-trees",
-        "tomatoes"
+        "cabbage"
       ],
       "avoid": [],
       "comments": "Predict a square metre for its adult size. Borage is a good companion for a wide variety of plants.",
@@ -953,8 +993,8 @@
       "id": "caraway",
       "names": {
         "en": "Caraway",
-        "de": "Caraway",
-        "fr": "Caraway",
+        "de": "Kümmel",
+        "fr": "Carvi",
         "la": "Carum carvi"
       },
       "synonyms": [],
@@ -971,8 +1011,8 @@
       "id": "catnip",
       "names": {
         "en": "Catnip",
-        "de": "Catnip",
-        "fr": "Catnip",
+        "de": "Katzenminze",
+        "fr": "Herbe aux chats",
         "la": "Nepeta cataria"
       },
       "synonyms": [],
@@ -987,8 +1027,8 @@
       "id": "chamomile",
       "names": {
         "en": "Chamomile",
-        "de": "Chamomile",
-        "fr": "Chamomile",
+        "de": "Kamille",
+        "fr": "Camomille",
         "la": "Matricaria recutita"
       },
       "synonyms": [],
@@ -1006,8 +1046,8 @@
       "id": "chervil",
       "names": {
         "en": "Chervil",
-        "de": "Chervil",
-        "fr": "Chervil",
+        "de": "Kerbel",
+        "fr": "Cerfeuil",
         "la": "Anthriscus cerefolium"
       },
       "synonyms": [],
@@ -1026,21 +1066,23 @@
       "id": "chives",
       "names": {
         "en": "Chives",
-        "de": "Chives",
-        "fr": "Chives",
+        "de": "Schnittlauch",
+        "fr": "Ciboulette",
         "la": "Allium schoenoprasum"
       },
       "synonyms": [],
       "helps": [
+        "apple",
         "carrots",
         "grapes",
+        "rose",
         "tomatoes",
         "brassicas",
         "cabbage",
         "mustard"
       ],
       "avoid": [
-        "beans-bush",
+        "legumes",
         "peas"
       ],
       "comments": "Same companion traits as all alliums said to prevent apple scab after 3 years planting at base of apple trees",
@@ -1050,13 +1092,13 @@
       "id": "cilantro-coriander",
       "names": {
         "en": "Cilantro / Coriander",
-        "de": "Cilantro / Coriander",
-        "fr": "Cilantro / Coriander",
+        "de": "Koriander",
+        "fr": "Coriandre",
         "la": "Coriandrum sativum"
       },
       "synonyms": [],
       "helps": [
-        "anise",
+        "cabbage",
         "spinach",
         "lettuce",
         "tomatoes"
@@ -1069,7 +1111,7 @@
       "id": "dill",
       "names": {
         "en": "Dill",
-        "de": "Dill (Pflanze)",
+        "de": "Dill",
         "fr": "Aneth",
         "la": "Anethum graveolens"
       },
@@ -1079,7 +1121,9 @@
         "cabbage",
         "corn-maize",
         "fennel",
-        "lettuce"
+        "lettuce",
+        "onion",
+        "cucumber"
       ],
       "avoid": [
         "carrots"
@@ -1090,8 +1134,10 @@
     {
       "id": "fennel",
       "names": {
+        "en": "Fennel",
         "de": "Fenchel",
-        "fr": "Fenouil"
+        "fr": "Fenouil",
+        "la": "Foeniculum vulgare"
       },
       "synonyms": [],
       "helps": [
@@ -1105,13 +1151,13 @@
       "id": "flax",
       "names": {
         "en": "Flax",
-        "de": "Gemeiner Lein",
-        "fr": "Lin cultivé",
+        "de": "Flachs / Lein",
+        "fr": "Lin",
         "la": "Linum usitatissimum"
       },
       "synonyms": [],
       "helps": [
-        "carrots"
+        "potato"
       ],
       "avoid": [],
       "comments": "Flax contains tannin and linseed oils which may offend the Colorado potato bug",
@@ -1122,17 +1168,20 @@
       "names": {
         "en": "Garlic",
         "de": "Knoblauch",
-        "fr": "Ail cultivé",
+        "fr": "Ail",
         "la": "Allium sativum"
       },
       "synonyms": [],
       "helps": [
         "brassicas",
         "beets",
+        "rose",
         "tomatoes",
+        "cucumber",
         "lettuce",
         "celery",
-        "peas"
+        "peas",
+        "potato"
       ],
       "avoid": [
         "grapes"
@@ -1144,8 +1193,8 @@
       "id": "hyssop",
       "names": {
         "en": "Hyssop",
-        "de": "Hyssop",
-        "fr": "Hyssop",
+        "de": "Ysop",
+        "fr": "Hysope",
         "la": "Hyssopus officinalis"
       },
       "synonyms": [],
@@ -1154,7 +1203,9 @@
         "cabbage",
         "grapes"
       ],
-      "avoid": [],
+      "avoid": [
+        "radish"
+      ],
       "comments": "Stimulates growth of grapes.",
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
     },
@@ -1162,8 +1213,8 @@
       "id": "lavender",
       "names": {
         "en": "Lavender",
-        "de": "Lavender",
-        "fr": "Lavender",
+        "de": "Lavendel",
+        "fr": "Lavande",
         "la": "Lavandula angustifolia, L. dentata, L. stoechas"
       },
       "synonyms": [],
@@ -1171,13 +1222,13 @@
         "chamomile",
         "lettuce",
         "brassicas",
+        "onion",
         "tomatoes",
         "oregano",
         "thyme",
         "sage",
         "rosemary",
         "basil",
-        "lemon-grass",
         "squash"
       ],
       "avoid": [],
@@ -1188,8 +1239,8 @@
       "id": "lemon-grass",
       "names": {
         "en": "Lemon grass",
-        "de": "Lemon grass",
-        "fr": "Lemon grass",
+        "de": "Zitronengras",
+        "fr": "Citronnelle",
         "la": "Cymbopogon citratus"
       },
       "synonyms": [],
@@ -1204,13 +1255,13 @@
       "id": "lovage",
       "names": {
         "en": "Lovage",
-        "de": "Lovage",
-        "fr": "Lovage",
+        "de": "Liebstöckel",
+        "fr": "Livèche",
         "la": "Levisticum officinale"
       },
       "synonyms": [],
       "helps": [
-        "beans-bush"
+        "legumes"
       ],
       "avoid": [],
       "comments": "Is thought to improve the health of almost all plants, like borage and geraniums, is considered a \"magic bullet\" of companion planting",
@@ -1221,7 +1272,7 @@
       "names": {
         "en": "Oregano",
         "de": "Oregano",
-        "fr": "Oregano",
+        "fr": "Origan",
         "la": "Origanum vulgare"
       },
       "synonyms": [],
@@ -1239,13 +1290,14 @@
       "id": "parsley",
       "names": {
         "en": "Parsley",
-        "de": "Parsley",
-        "fr": "Parsley",
+        "de": "Petersilie",
+        "fr": "Persil",
         "la": "Petroselinum crispum"
       },
       "synonyms": [],
       "helps": [
         "asparagus",
+        "corn-maize",
         "tomatoes"
       ],
       "avoid": [
@@ -1259,8 +1311,8 @@
       "id": "peppermint",
       "names": {
         "en": "Peppermint",
-        "de": "Peppermint",
-        "fr": "Peppermint",
+        "de": "Pfefferminze",
+        "fr": "Menthe poivrée",
         "la": "Mentha piperita"
       },
       "synonyms": [],
@@ -1279,14 +1331,14 @@
       "id": "rosemary",
       "names": {
         "en": "Rosemary",
-        "de": "Rosemary",
-        "fr": "Rosemary",
+        "de": "Rosmarin",
+        "fr": "Romarin",
         "la": "Rosmarinus officinalis"
       },
       "synonyms": [],
       "helps": [
         "cabbage",
-        "beans-bush",
+        "legumes",
         "brassicas",
         "carrots",
         "thyme"
@@ -1299,8 +1351,8 @@
       "id": "sage",
       "names": {
         "en": "Sage",
-        "de": "Sage",
-        "fr": "Sage",
+        "de": "Salbei",
+        "fr": "Sauge",
         "la": "Salvia officinalis"
       },
       "synonyms": [],
@@ -1308,9 +1360,10 @@
         "brassicas",
         "rosemary",
         "cabbage",
-        "beans-bush",
+        "legumes",
         "brussels-sprouts",
         "carrots",
+        "strawberries",
         "tomatoes"
       ],
       "avoid": [],
@@ -1321,8 +1374,8 @@
       "id": "southernwood",
       "names": {
         "en": "Southernwood",
-        "de": "Southernwood",
-        "fr": "Southernwood",
+        "de": "Eberraute",
+        "fr": "Aurone",
         "la": "Artemisia abrotanum"
       },
       "synonyms": [],
@@ -1338,8 +1391,8 @@
       "id": "spearmint",
       "names": {
         "en": "Spearmint",
-        "de": "Spearmint",
-        "fr": "Spearmint",
+        "de": "Grüne Minze / Spearmint",
+        "fr": "Menthe verte",
         "la": "Mentha spicata"
       },
       "synonyms": [],
@@ -1358,16 +1411,15 @@
       "id": "stinging-nettle",
       "names": {
         "en": "Stinging nettle",
-        "de": "Stinging nettle",
-        "fr": "Stinging nettle",
+        "de": "Brennnessel",
+        "fr": "Ortie",
         "la": "Urtica dioica"
       },
       "synonyms": [],
       "helps": [
         "peppermint",
         "broccoli",
-        "tomatoes",
-        "sage"
+        "tomatoes"
       ],
       "avoid": [],
       "comments": "",
@@ -1377,14 +1429,15 @@
       "id": "summer-savoury",
       "names": {
         "en": "Summer savoury",
-        "de": "Summer savoury",
-        "fr": "Summer savoury",
+        "de": "Bohnenkraut",
+        "fr": "Sarriette d'été",
         "la": "Satureja hortensis"
       },
       "synonyms": [],
       "helps": [
-        "beans-bush",
-        "melon"
+        "legumes",
+        "melon",
+        "onion"
       ],
       "avoid": [],
       "comments": "Also delays germination of certain foul herbs",
@@ -1394,8 +1447,8 @@
       "id": "tarragon",
       "names": {
         "en": "Tarragon",
-        "de": "Tarragon",
-        "fr": "Tarragon",
+        "de": "Estragon",
+        "fr": "Estragon",
         "la": "Artemisia dracunculus"
       },
       "synonyms": [],
@@ -1408,15 +1461,17 @@
       "id": "thyme",
       "names": {
         "en": "Thyme",
-        "de": "Thyme",
-        "fr": "Thyme",
+        "de": "Thymian",
+        "fr": "Thym",
         "la": "Thymus vulgaris"
       },
       "synonyms": [],
       "helps": [
         "brassicas",
         "cabbage",
+        "eggplant-or-aubergine",
         "potato",
+        "strawberries",
         "tomatoes",
         "brussels-sprouts"
       ],
@@ -1428,8 +1483,8 @@
       "id": "wormwood",
       "names": {
         "en": "Wormwood",
-        "de": "Wormwood",
-        "fr": "Wormwood",
+        "de": "Wermut",
+        "fr": "Absinthe",
         "la": "Artemisia absinthium"
       },
       "synonyms": [],
@@ -1445,8 +1500,8 @@
       "id": "yarrow",
       "names": {
         "en": "Yarrow",
-        "de": "Yarrow",
-        "fr": "Yarrow",
+        "de": "Schafgarbe",
+        "fr": "Achillée",
         "la": "Achillea millefolium"
       },
       "synonyms": [],
@@ -1459,8 +1514,8 @@
       "id": "alyssum",
       "names": {
         "en": "Alyssum",
-        "de": "Alyssum",
-        "fr": "Alyssum",
+        "de": "Steinkraut",
+        "fr": "Alysse",
         "la": "Lobularia maritima"
       },
       "synonyms": [],
@@ -1475,8 +1530,8 @@
       "id": "baby-s-breath",
       "names": {
         "en": "Baby's breath",
-        "de": "Baby's breath",
-        "fr": "Baby's breath",
+        "de": "Schleierkraut",
+        "fr": "Gypsophile",
         "la": "Gypsophila paniculata"
       },
       "synonyms": [],
@@ -1489,8 +1544,8 @@
       "id": "bee-balm",
       "names": {
         "en": "Bee balm",
-        "de": "Bee balm",
-        "fr": "Bee balm",
+        "de": "Monarde",
+        "fr": "Monarde",
         "la": "Monarda spp."
       },
       "synonyms": [],
@@ -1505,8 +1560,8 @@
       "id": "californian-poppy",
       "names": {
         "en": "Californian poppy",
-        "de": "Californian poppy",
-        "fr": "Californian poppy",
+        "de": "Kalifornischer Mohn",
+        "fr": "Pavot de Californie",
         "la": "Eschscholzia californica"
       },
       "synonyms": [],
@@ -1519,12 +1574,13 @@
       "id": "dianthus",
       "names": {
         "en": "Dianthus",
-        "de": "Dianthus",
-        "fr": "Dianthus",
+        "de": "Nelke",
+        "fr": "Œillet",
         "la": "Dianthus caryophyllus"
       },
       "synonyms": [],
       "helps": [
+        "rose",
         "lavender"
       ],
       "avoid": [],
@@ -1535,18 +1591,20 @@
       "id": "geraniums",
       "names": {
         "en": "Geraniums",
-        "de": "Geraniums",
-        "fr": "Geraniums",
+        "de": "Geranie / Pelargonie",
+        "fr": "Géranium",
         "la": "Pelargonium spp."
       },
       "synonyms": [],
       "helps": [
+        "rose",
         "corn-maize",
         "peppers",
         "grapes"
       ],
       "avoid": [
-        "tomatoes"
+        "tomatoes",
+        "nightshades"
       ],
       "comments": "A trap crop, attracting pests away from roses and grape vines, distracts beet leafhoppers, carrier of the curly top virus, keep away from solanaceous plants like eggplant, and tobacco",
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
@@ -1555,13 +1613,13 @@
       "id": "larkspur",
       "names": {
         "en": "Larkspur",
-        "de": "Larkspur",
-        "fr": "Larkspur",
+        "de": "Rittersporn",
+        "fr": "Pied-d'alouette",
         "la": "Delphinium spp."
       },
       "synonyms": [],
       "helps": [
-        "beans-bush",
+        "legumes",
         "cabbage"
       ],
       "avoid": [],
@@ -1572,7 +1630,7 @@
       "id": "lupin",
       "names": {
         "en": "Lupin",
-        "de": "Lupin",
+        "de": "Lupine",
         "fr": "Lupin",
         "la": "Lupinus"
       },
@@ -1583,10 +1641,11 @@
         "lettuce",
         "rosemary",
         "dill",
+        "strawberries",
         "rose"
       ],
       "avoid": [
-        "tomatoes"
+        "nightshades"
       ],
       "comments": "This wildflower is a legume, hosting bacteria that fixes nitrogen in the soil, fertilizing it for neighboring plants. Same with marigold, planting nearby roses causes them to grow vigorously.",
       "source": "https://en.wikipedia.org/wiki/List_of_companion_plants"
@@ -1594,13 +1653,18 @@
     {
       "id": "marigold",
       "names": {
+        "en": "Marigold",
         "de": "Ringelblume",
-        "fr": "Souci"
+        "fr": "Souci",
+        "la": "Tagetes patula, T. erecta, T. minuta"
       },
       "synonyms": [],
       "helps": [
         "cucurbits",
+        "pumpkin",
         "squash",
+        "potato",
+        "rose",
         "alliums",
         "brassicas"
       ],
@@ -1612,18 +1676,18 @@
       "id": "nasturtium",
       "names": {
         "en": "Nasturtium",
-        "de": "Nasturtium",
-        "fr": "Nasturtium",
+        "de": "Kapuzinerkresse",
+        "fr": "Capucine",
         "la": "Tropaeolum majus"
       },
       "synonyms": [],
       "helps": [
-        "beans-bush",
+        "legumes",
         "squash",
         "tomatoes",
         "fruit-trees",
         "brassicas",
-        "radish"
+        "cucumber"
       ],
       "avoid": [
         "cauliflower"
@@ -1635,13 +1699,15 @@
       "id": "pansy",
       "names": {
         "en": "Pansy",
-        "de": "Pansy",
-        "fr": "Pansy",
+        "de": "Stiefmütterchen",
+        "fr": "Pensée",
         "la": "Viola x wittrockiana"
       },
       "synonyms": [],
       "helps": [
-        "alliums"
+        "alliums",
+        "onion",
+        "rose"
       ],
       "avoid": [],
       "comments": "A good and nice-smelling flower that really attracts ants. It is like the viola plant, but has two or three colors in flowers. Helps alliums and onions, which repels the white butterfly.",
@@ -1651,13 +1717,15 @@
       "id": "petunia",
       "names": {
         "en": "Petunia",
-        "de": "Petunia",
-        "fr": "Petunia",
+        "de": "Petunie",
+        "fr": "Pétunia",
         "la": "Petunia x hybrida"
       },
       "synonyms": [],
       "helps": [
         "cucurbits",
+        "pumpkin",
+        "cucumber",
         "asparagus"
       ],
       "avoid": [],
@@ -1668,8 +1736,8 @@
       "id": "phacelia",
       "names": {
         "en": "Phacelia",
-        "de": "Phacelia",
-        "fr": "Phacelia",
+        "de": "Phacelie / Bienenfreund",
+        "fr": "Phacélie",
         "la": "Phacelia tanacetifolia"
       },
       "synonyms": [],
@@ -1699,8 +1767,8 @@
       "id": "sunflower",
       "names": {
         "en": "Sunflower",
-        "de": "Sunflower",
-        "fr": "Sunflower",
+        "de": "Sonnenblume",
+        "fr": "Tournesol",
         "la": "Helianthus annuus"
       },
       "synonyms": [],
@@ -1708,6 +1776,7 @@
         "peppers",
         "corn-maize",
         "cucumber",
+        "soybean",
         "tomatoes",
         "swan-plant"
       ],
@@ -1721,8 +1790,8 @@
       "id": "swan-plant",
       "names": {
         "en": "Swan plant",
-        "de": "Swan plant",
-        "fr": "Swan plant",
+        "de": "Schwanenpflanze",
+        "fr": "Plante à cygne",
         "la": "Gomphocarpus physocarpus, Asclepias physocarpa, milkweed"
       },
       "synonyms": [],
@@ -1737,13 +1806,14 @@
       "id": "sweet-pea",
       "names": {
         "en": "Sweet pea",
-        "de": "Sweet pea",
-        "fr": "Sweet pea",
+        "de": "Duftwicke",
+        "fr": "Pois de senteur",
         "la": "Lathyrus odoratus"
       },
       "synonyms": [],
       "helps": [
-        "sweet-potato",
+        "alyssum",
+        "rose",
         "lavender"
       ],
       "avoid": [],
@@ -1754,15 +1824,16 @@
       "id": "tansy",
       "names": {
         "en": "Tansy",
-        "de": "Tansy",
-        "fr": "Tansy",
+        "de": "Rainfarn",
+        "fr": "Tanaisie",
         "la": "Tanacetum vulgare"
       },
       "synonyms": [],
       "helps": [
-        "beans-bush",
+        "legumes",
         "cucurbits",
         "squash",
+        "rose",
         "corn-maize",
         "fruit-trees"
       ],
@@ -1774,13 +1845,13 @@
       "id": "zinnia",
       "names": {
         "en": "Zinnia",
-        "de": "Zinnia",
+        "de": "Zinnie",
         "fr": "Zinnia",
         "la": "Zinnia"
       },
       "synonyms": [],
       "helps": [
-        "beans-bush",
+        "legumes",
         "tomatoes",
         "peppers"
       ],
@@ -1792,8 +1863,8 @@
       "id": "alfalfa",
       "names": {
         "en": "Alfalfa",
-        "de": "Alfalfa",
-        "fr": "Alfalfa",
+        "de": "Luzerne",
+        "fr": "Luzerne",
         "la": "Medicago sativa"
       },
       "synonyms": [],
@@ -1809,18 +1880,19 @@
       "id": "peanut",
       "names": {
         "en": "Peanut",
-        "de": "Peanut",
-        "fr": "Peanut",
+        "de": "Erdnuss",
+        "fr": "Arachide",
         "la": "Arachis hypogaea"
       },
       "synonyms": [],
       "helps": [
-        "beans-bush",
+        "legumes",
         "corn-maize",
         "cucumber",
         "eggplant-or-aubergine",
         "lettuce",
-        "marigold"
+        "marigold",
+        "sunflower"
       ],
       "avoid": [],
       "comments": "Peanuts encourage growth of corn and squash",
@@ -1830,8 +1902,8 @@
       "id": "walnut-tree",
       "names": {
         "en": "Walnut tree",
-        "de": "Walnut tree",
-        "fr": "Walnut tree",
+        "de": "Walnussbaum",
+        "fr": "Noyer",
         "la": "Juglans spp."
       },
       "synonyms": [],

@@ -19,13 +19,29 @@
   import Explanation from './components/Explanation.svelte';
 
   // --- State ---
-  let lang: Lang = 'de';
-  let inputText = '';
+  let lang: Lang = (localStorage.getItem('garten-lang') as Lang) || 'de';
+
+  // One input text per language, persisted to localStorage
+  const STORAGE_KEY = (l: Lang) => `garten-input-${l}`;
+  let inputTexts: Record<Lang, string> = {
+    de: localStorage.getItem(STORAGE_KEY('de')) ?? '',
+    en: localStorage.getItem(STORAGE_KEY('en')) ?? '',
+    fr: localStorage.getItem(STORAGE_KEY('fr')) ?? '',
+  };
+
+  function setLang(l: Lang) {
+    lang = l;
+    localStorage.setItem('garten-lang', l);
+  }
+
   let bedCols = 10;
   let bedRows = 8;
   let cellSizeCm = 30;
   let layoutResult: LayoutResult | null = null;
   let explanationItems: ExplanationItem[] = [];
+
+  // Persist input whenever it changes
+  $: localStorage.setItem(STORAGE_KEY(lang), inputTexts[lang]);
 
   // --- Plant data: prefer scraper output, fall back to built-in data ---
   const jsonPlants = (plantsJson as any)?.plants;
@@ -35,7 +51,7 @@
 
   // --- Reactive ---
   $: tr = t[lang];
-  $: entries = inputText.trim() ? parseInput(inputText, plants) : ([] as ParsedEntry[]);
+  $: entries = inputTexts[lang].trim() ? parseInput(inputTexts[lang], plants) : ([] as ParsedEntry[]);
   $: matchedEntries = entries.filter((e) => e.matched && e.plantId);
   $: plantIds = [...new Set(layoutResult?.grid.filter(Boolean) ?? [])];
 
@@ -66,9 +82,9 @@
   <header class="app-header">
     <h1>🌱 {tr.title}</h1>
     <div class="lang-switcher">
-      <button class:active={lang === 'de'} on:click={() => (lang = 'de')}>DE</button>
-      <button class:active={lang === 'en'} on:click={() => (lang = 'en')}>EN</button>
-      <button class:active={lang === 'fr'} on:click={() => (lang = 'fr')}>FR</button>
+      <button class:active={lang === 'de'} on:click={() => setLang('de')}>DE</button>
+      <button class:active={lang === 'en'} on:click={() => setLang('en')}>EN</button>
+      <button class:active={lang === 'fr'} on:click={() => setLang('fr')}>FR</button>
     </div>
     <button class="print-btn" on:click={printPage}>🖨 {tr.print}</button>
   </header>
@@ -77,7 +93,7 @@
     <!-- Sidebar -->
     <aside class="sidebar sidebar-controls">
       <PlantInput
-        bind:text={inputText}
+        bind:text={inputTexts[lang]}
         {entries}
         {plants}
         {lang}
